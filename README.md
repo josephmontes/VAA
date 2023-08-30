@@ -1,38 +1,41 @@
-Thank you for checking out my first research project using R.
+# 0. BACKGROUND
+- Thank you for checking out my first research project using R.
 
-The Statcast data used for this research was scraped using baseballr.
+- The Statcast data used for this research was scraped using baseballr.
 
-In this project, I focused on the Vertical Approach Angle (VAA) for 4-Seam Fastballs from 2019-2023 seasons (currently August in 23 season)
++ In this project, I analyze 4-Seam Fastballs from 2019-2023 seasons (currently August in '23 season) with a focus on their Vertical Approach Angle (VAA)
++ Additionally, I identify pitchers and batters that are benefiting from this trend and players that are at risk of regressing
+* I followed this formula from FanGraphs website for my calculation of VAA:
 
-I followed this formula from FanGraphs website for my calculation of VAA:
+![Screenshot 2023-08-30 141448](https://github.com/josephmontes/VAA/assets/125607783/bbb0ffe8-bc70-42df-a561-49f7aba21a57)
 
-[image]
-
-
-
-1. INTRO
+## 1. IDENTIFYING VAA TREND
    
-  a. 4-Seam Fastballs are the most frequent pitch thrown in MLB
+  - Despite 4-Seam Fastball usage slightly declining in recent years, it is still the most frequently thrown pitch
+       - being thrown at least twice as much as every pitch besides Sliders
 
 ![Screenshot 2023-08-29 225522](https://github.com/josephmontes/VAA/assets/125607783/0aa01456-74b1-4f70-b819-32711fa79a47)
 
 
-  b. 4-Seam Fastballs are also responsible for the highest wOBA of any pitch type
+- Likely contributing to 4-Seam Fastball usage decline is that fact that they are hit at an above average rate according to wOBA
 
 ![Screenshot 2023-08-29 225810](https://github.com/josephmontes/VAA/assets/125607783/28e91b6a-b4ef-4f3f-95b5-3b23eb7844d4)
 
 
-  c. However, when we look at 4-Seamers through the VAA lens, we can see that some 4-Seamers are more effective than others 
+- However, when 4-Seamers are broken down by their VAA, we see that some 4-Seamers have been more effective than others
+     - wOBA and xwOBA decrease as a 4-Seam Fastball's VAA approaches 0
+     - Whiff% increases as a 4-Seam Fastball's VAA approaches 0
+  
 
 ![Screenshot 2023-08-29 231032](https://github.com/josephmontes/VAA/assets/125607783/af21f4d3-00f8-4194-bd6b-6d7a5632bd99)
 ![Screenshot 2023-08-29 231758](https://github.com/josephmontes/VAA/assets/125607783/cc274ac1-71ef-45aa-926a-ec9ccce8e429)
 
 
-   It seems that the woba drops below league average at about -4.5 degrees
+   - It appears that -4.5 degrees is signficant, as it is the value where wOBA, xwOBA and Whiff% cross their league average thresholds
 
-  d. But are all 4-Seam Fastballs thrown at this -4.5 angle or greater the same? 
+   -  But are all 4-Seam Fastballs thrown at this -4.5 angle or greater the same? 
 
-  The following graphic shows that it is best utilized in the top of the zone
+        - The following graphic shows that it is best utilized in the top of the zone
 
 ![Screenshot 2023-08-29 235356](https://github.com/josephmontes/VAA/assets/125607783/779aa2a1-8b24-447d-a98c-d14b653e777f)
 
@@ -50,16 +53,22 @@ These fastballs account for about 40% of all fastballs currently
 
 2. PLAYERS
 
-
-  So who is throwing this fastball with success?
-
-Joe Ryan, Freddy Peralta, Luis Castillo
-
 Who is throwing this fastball without success?
 
 Cristan Javier, Josiah Gray, JP Sears
 
 I would heavily consider these guys progression candidates
+
+- I analyzed all the pitchers who have thrown it at least 60% of the time
+     - of these pitchers, only _ of them had a wOBA higher than an aveage fastball
+     - of these pitches, 10 of them had higher wOBA on their good fb than bad fb:
+          - 2021 Aaron Nola, 2023 Dylan Cease, 2022 Roansy Contreras? 2021 Vince Velazquez? 2023 Reid Detmers? 2022 Yusei Kikuchi? 2019 Trevor Bauer, 2023 Ken Waldichuk, 2022 Jose Berrios, 2022 Josiah Gray
+
+  So who is throwing this fastball with success?
+   - list of guys with below average woba and usage above 60% [image]
+
+Joe Ryan, Freddy Peralta, Luis Castillo
+
 
 Case Study:
 
@@ -67,6 +76,95 @@ Yusei Kikuchi; threw it a lot without success, threw it too middle of the zone, 
 
 
 Who is not throwing it with success?
+- List of guys throwing it less than 39.1% of the time and a below average wOBA on their fastball
+  - list of guys
+   
+- List of guys throwing the bad fastball better than the good fastball
+
+  - 2019 Clayton Kershaw
+  - 2019 Shane Bieber
+  - 2019 Merrill Kelly
+ 
+  - 2021 Eric Lauer
+  - 2021 Chris Flexen
+  - 2021 John Means
+  - 2021 Dylan Bundy
+  - 2021 Antonio Senzatela
+  - 2021 Blake Snell
+  - 2021 Ian Anderson
+  - 2021 Tyler Matzek
+  - 2021 Carlos Rodon
+
+  - 2022 Jon Gray
+  - 2022 Charlie Morton
+  - 2022 Andre Pallante
+  - 2022 Brad Keller
+  - 2022 Miles Mikolas
+
+ 
+  - 2023 Justin Verlander
+  - 2023 Jesus Luzardo
+  - 2023 Tanner Bibee
+
+
+
+- List of guys throwing the bad fastball below average wOBA
+
+  - 2019 Greinke?
+  - 2019 Caleb Smith?
+  - 2022 Tyler Anderson?
+  - 2019 John Means?
+  - 2021 Kevin Gausman?
+  - 2021 Keegan Akin?
+  - 2021 Cole Irvin?
+  - 2019 Drew Pomeranz?
+  - 2022 Jose Urquidy?
+  - 2022 Pablo Lopez?
+  - 2023 Nick Pivetta?
+  - 2023 Justin Steele?
+  - 2019 Spencer Turnbull?
+  - 2019 Mike Fiers?
+  - 2021 Brent Suter?
+  - 2023 James Paxton?
+  - 2021 Taijuan Walker?
+  - 2019 Eric Lauer?
+  - 2021 Max Fried?
+  - 2019 Blake Snell?
+  - 2021 Kris Bubic?
+  - 2019/22/21 Robbie Ray?
+  - 2021 Zac Gallen?
+  - 2022 Taylor Hearn?
+  - 2019 Jeff Samardjzia?
+  - 2023 Kevin Gausman?
+  - 2021 Luis Patino?
+  - 2021 Frankie Montas?
+  - 2021 Trevor Rogers?
+  - 2019 Lance Lynn?
+  - 2019 Charlie Morton?
+  - 2019 Zack Greinke?
+  - 2022 Merrill Kelly?
+  - 2022 Julio Urias?
+  - 2021 Jose Urquidy?
+  - 2021 Madison Bumgarner?
+  - 2021 Charlie Morton?
+  - 2019 Chris Paddack?
+  - 2019 Liam Hendriks?
+  - 2022 Brock Burke?
+  - 2022 Triston Mackenzie?
+  - 2019 Lucas Giolito?
+  - 2022 Carlos Rodon?
+  - 2022 Cole Irvin?
+  - 2022 Alek Manoah?
+  - 2021 Drew Rasmussen?
+  - 2022 Eric Lauer?
+  - 2021 Richard Rodriguez?
+  - 2019 Colin Poche?
+  - 2023 Zac Gallen?
+  - 2019 Julio Urias?
+  - 2021 Jake McGee?
+  - 2022 Zac Gallen?
+  - 2019 Brandon Woodruff?
+  - 2022 Justin Verlander?
 
 Joe Musgrove, Justin Steele, Carlos Rodon
 
