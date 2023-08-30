@@ -1,41 +1,57 @@
-4-Seam Fastballs are the most popular pitch thrown in MLB
+Thank you for checking out my first research project using R.
+
+The Statcast data used for this research was scraped using baseballr.
+
+In this project, I focused on the Vertical Approach Angle (VAA) for 4-Seam Fastballs from 2019-2023 seasons (currently August in 23 season)
+
+I followed this formula from FanGraphs website for my calculation of VAA:
 
 [image]
 
 
-They are also responsible for the highest wOBA of any pitch type
 
-[image]
+1. INTRO
+   
+  a. 4-Seam Fastballs are the most frequent pitch thrown in MLB
 
-
-However, when we look at 4-Seamers through the Vertical Approach Angle lens, we can see that some 4-Seamers are more effective than others 
-
-[image]
-[image]
+![Screenshot 2023-08-29 225522](https://github.com/josephmontes/VAA/assets/125607783/0aa01456-74b1-4f70-b819-32711fa79a47)
 
 
-As a 4-Seam Fastball's Vertical Approach Angle approaches 0, they become harder to hit -
-This is supported by the increase in Whiff % as 4-Seam VAA approaches 0
+  b. 4-Seam Fastballs are also responsible for the highest wOBA of any pitch type
 
-[image]
-
-
-It seems that the woba drops below league average at about -4.5 degrees
-
-But are all 4-Seam Fastballs thrown at the angle created the same? 
-
-The following graphic shows that it is best utilized in the top of the zone
-
-[image]
-
-You can also see a trend where VAA approaches 0 as the ball is thrown higher in the zone, which makes a lot of sense
+![Screenshot 2023-08-29 225810](https://github.com/josephmontes/VAA/assets/125607783/28e91b6a-b4ef-4f3f-95b5-3b23eb7844d4)
 
 
-The league has responded to this trend as the VAA has been steadily decreasing as well as fastball height increasing
+  c. However, when we look at 4-Seamers through the VAA lens, we can see that some 4-Seamers are more effective than others 
+
+![Screenshot 2023-08-29 231032](https://github.com/josephmontes/VAA/assets/125607783/af21f4d3-00f8-4194-bd6b-6d7a5632bd99)
+![Screenshot 2023-08-29 231758](https://github.com/josephmontes/VAA/assets/125607783/cc274ac1-71ef-45aa-926a-ec9ccce8e429)
 
 
+   It seems that the woba drops below league average at about -4.5 degrees
 
-So who is throwing this fastball with success?
+  d. But are all 4-Seam Fastballs thrown at this -4.5 angle or greater the same? 
+
+  The following graphic shows that it is best utilized in the top of the zone
+
+![Screenshot 2023-08-29 235356](https://github.com/josephmontes/VAA/assets/125607783/779aa2a1-8b24-447d-a98c-d14b653e777f)
+
+  f. You can also see a trend where VAA approaches 0 as the ball is thrown higher in the zone, which makes a lot of sense
+
+
+  The league has responded to this trend as the VAA has been steadily increasing as well as fastball height increasing
+
+![Screenshot 2023-08-29 235028](https://github.com/josephmontes/VAA/assets/125607783/7c540b71-5599-49a5-9fae-60d39f39eafc)
+
+
+These fastballs account for about 40% of all fastballs currently
+
+![Screenshot 2023-08-30 000338](https://github.com/josephmontes/VAA/assets/125607783/15dab2d1-5baf-40c5-9976-233d71bfbaa6)
+
+2. PLAYERS
+
+
+  So who is throwing this fastball with success?
 
 Joe Ryan, Freddy Peralta, Luis Castillo
 
