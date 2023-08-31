@@ -51,16 +51,138 @@ These fastballs account for about 40% of all fastballs currently
 
 ![Screenshot 2023-08-30 000338](https://github.com/josephmontes/VAA/assets/125607783/15dab2d1-5baf-40c5-9976-233d71bfbaa6)
 
-2. PLAYERS
+# 2. PLAYERS
 
-Who is throwing this fastball without success?
+Who is throwing this fastball with success?
 
-Cristan Javier, Josiah Gray, JP Sears
+| Year | Pitcher             |
+|------|---------------------|
+| 2019 | Jacob deGrom        |
+| 2019 | Gerrit Cole         |
+| 2019 | Walker Buehler      |
+| 2019 | Max Scherzer        |
+| 2019 | Zack Wheeler        |
+| 2019 | Jose Berrios        |
+| 2019 | Chris Sale          |
+| 2019 | Jake Odorizzi       |
+| 2019 | Mike Clevinger      |
+| 2019 | Jack Flaherty       |
+| 2019 | Mychael Givens      |
+| 2019 | Sean Doolittle      |
+| 2019 | Daniel Hudson       |
+| 2019 | Vince Velazquez     |
+| 2019 | Anthony Descalfani  |
+| 2019 | Tyler Mahle         |
+| 2021 | Freddy Peralta      |
+| 2021 | Chad Green          |
+| 2021 | Brandon Woodruff    |
+| 2021 | Lance Lynn          |
+| 2021 | Liam Hendriks       |
+| 2021 | Ian Kennedy         |
+| 2021 | Zack Wheeler (2x)   |
+| 2021 | Max Scherzer (2x)   |
+| 2021 | Walker Buehler (2x) |
+| 2021 | Jameson Taillon     |
+| 2021 | Michael Kopech      |
+| 2021 | Gerrit Cole (2x)    |
+| 2021 | Jake Odorizzi (2x)  |
+| 2021 | Yusei Kikuchi       |
+| 2021 | Koby Allard         |
+| 2021 | Bailey Ober         |
+| 2021 | Carlos Hernandez    |
+| 2021 | Tyler Mahle (2x)    |
+| 2021 | Cristian Javier     |
+| 2022 | Brandon Woodruff (2x)|
+| 2022 | Lance Lynn (2x)     |
+| 2022 | Freddy Peralta (2x) |
+| 2022 | Tyler Mahle (2x)    |
+| 2022 | Trevor Williams     |
+| 2022 | Nestor Cortes       |
+| 2022 | Luis Castillo       |
+| 2022 | Yu Darvish          |
+| 2022 | Jose Quintana       |
+| 2022 | George Kirby        |
+| 2022 | Joe Ryan            |
+| 2022 | Aaron Nola          |
+| 2022 | Spencer Strider     |
+| 2022 | Drew Rasmussen      |
+| 2022 | Zack Wheeler (3x)   |
+| 2022 | Sean Manaea         |
+| 2022 | Gerrit Cole (3x)    |
+| 2022 | Jeffrey Springs     |
+| 2022 | Reid Detmers        |
+| 2022 | Dylan Cease         |
+| 2022 | Jake Odorizzi (3x)  |
+| 2022 | Logan Gilbert       |
+| 2022 | Michael Kopech (2x) |
+| 2021 | Max Scherzer (3x)   |
+| 2022 | Sandy Alcantara     |
+| 2023 | Luis Castillo (2x)  |
+| 2023 | George Kirby (2x)   |
+| 2023 | Zack Wheeler (4x)   |
+| 2023 | Gerrit Cole (4x)    |
+| 2023 | Joe Ryan (2x)       |
+| 2023 | Pablo Lopez         |
+| 2023 | Freddy Peralta (3x) |
+| 2023 | Andrew Heaney       |
+| 2023 | Bryce Miller        |
+| 2023 | Cristian Javier (2x)|
+| 2023 | Bailey Ober (2x)    |
+| 2023 | Max Scherzer (4x)   |
+| 2023 | Yusei Kikuchi (2x)  |
+| 2023 | Dean Kremer         |
+
+Who is throwing it without success?
+
+| Year | Pitcher              |
+|------|----------------------|
+| 2019 | Sonny Gray           |
+| 2019 | Elieser Hernandez    |
+| 2019 | Trevor Bauer         |
+| 2019 | Aaron Nola           |
+| 2019 | Vince Velazquez      |
+| 2019 | Trent Thornton       |
+| 2019 | Thomas Pannone       |
+| 2019 | Asher Wojciechowski  |
+| 2019 | Freddy Peralta       |
+| 2019 | Domingo German       |
+| 2019 | Tanner Roark         |
+| 2019 | Julio Teheran        |
+| 2021 | Vladimir Gutierrez   |
+| 2021 | Yusei Kikuchi        |
+| 2021 | Andrew Heaney        |
+| 2021 | Hunter Greene        |
+| 2021 | Luis Castillo        |
+| 2021 | Nathan Eovaldi       |
+| 2021 | Trevor Williams      |
+| 2021 | Aaron Nola (2x)      |
+| 2022 | Josiah Gray          |
+| 2022 | Jose Berrios         |
+| 2022 | Yusei Kikuchi (2x)   |
+| 2022 | Vince Velazquez      |
+| 2022 | Daniel Lynch         |
+| 2022 | Roansy Contreras     |
+| 2022 | Mitch Keller         |
+| 2022 | Hunter Greene (2x)   |
+| 2022 | Shane Bieber         |
+| 2022 | Andrew Heaney (2x)   |
+| 2023 | Ken Waldichuk        |
+| 2023 | Reid Detmers         |
+| 2023 | Michael Kopech       |
+| 2023 | Dylan Cease          |
+| 2023 | Trevor Williams      |
+| 2023 | Hunter Greene (3x)   |
+| 2023 | JP Sears             |
+| 2023 | Sean Manaea          |
+| 2023 | Spencer Strider      |
+
+
+Kikuchi, Berrios, Castillo, Peralta, Nola, Kopech, Detmers,
 
 I would heavily consider these guys progression candidates
 
 - I analyzed all the pitchers who have thrown it at least 60% of the time
-     - of these pitchers, only _ of them had a wOBA higher than an aveage fastball
+     - of these pitchers, only _ of them had a wOBA higher than an average fastball
      - of these pitches, 10 of them had higher wOBA on their good fb than bad fb:
           - 2021 Aaron Nola, 2023 Dylan Cease, 2022 Roansy Contreras? 2021 Vince Velazquez? 2023 Reid Detmers? 2022 Yusei Kikuchi? 2019 Trevor Bauer, 2023 Ken Waldichuk, 2022 Jose Berrios, 2022 Josiah Gray
 
@@ -79,92 +201,242 @@ Who is not throwing it with success?
 - List of guys throwing it less than 39.1% of the time and a below average wOBA on their fastball
   - list of guys
    
-- List of guys throwing the bad fastball better than the good fastball
+- List of guys throwing the bad fastball badly
 
-  - 2019 Clayton Kershaw
-  - 2019 Shane Bieber
-  - 2019 Merrill Kelly
- 
-  - 2021 Eric Lauer
-  - 2021 Chris Flexen
-  - 2021 John Means
-  - 2021 Dylan Bundy
-  - 2021 Antonio Senzatela
-  - 2021 Blake Snell
-  - 2021 Ian Anderson
-  - 2021 Tyler Matzek
-  - 2021 Carlos Rodon
+| Year | Player Name         |
+|------|--------------------|
+| 2019 | Lambert, Peter     |
+| 2019 | Hamels, Cole       |
+| 2019 | Anderson, Chase    |
+| 2019 | Bundy, Dylan       |
+| 2019 | Pivetta, Nick      |
+| 2019 | Wacha, Michael     |
+| 2019 | Paxton, James      |
+| 2019 | Gausman, Kevin     |
+| 2019 | Musgrove, Joe      |
+| 2019 | Sanchez, Aaron     |
+| 2019 | Kikuchi, Yusei     |
+| 2019 | Maeda, Kenta       |
+| 2019 | Sanchez, Anibal    |
+| 2019 | Lester, Jon        |
+| 2019 | Brault, Steven     |
+| 2019 | Fried, Max         |
+| 2019 | Plutko, Adam       |
+| 2019 | Cashner, Andrew    |
+| 2019 | Plesac, Zach       |
+| 2019 | Bradley, Archie    |
+| 2019 | Sparkman, Glenn    |
+| 2019 | Senzatela, Anotonio|
+| 2019 | Hess, David        |
+| 2019 | Beede, Tyler       |
+| 2019 | Marquez, German    |
+| 2019 | Quintana, Jose     |
+| 2019 | López, Reynaldo    |
+| 2019 | Norris, Daniel     |
+| 2019 | Happ, J.A.         |
+| 2019 | Freeland, Kyle     |
+| 2019 | Estévez, Carlos    |
+| 2019 | Junis, Jakob       |
+| 2019 | Beeks, Jalen       |
+| 2019 | Williams, Trevor   |
+| 2019 | Duffy, Danny       |
+| 2019 | Keller, Brad       |
+| 2019 | Verlander, Justin  |
+| 2019 | Newcomb, Sean      |
+| 2019 | Gray, Jon          |
+| 2021 | Skubal, Tarik      |
+| 2021 | Gomber, Austin     |
+| 2021 | Hoffman, Jeff      |
+| 2021 | Plesac, Zach (2x)  |
+| 2021 | Lyles, Jordan      |
+| 2021 | Urias, Julio       |
+| 2021 | Gray, Jon (2x)     |
+| 2021 | Corbin, Patrick    |
+| 2021 | Kelly, Merrill     |
+| 2021 | Harvey, Matt       |
+| 2021 | González, Chi Chi  |
+| 2021 | McClanahan, Shane  |
+| 2021 | Widener, Taylor    |
+| 2021 | Keller, Mitch      |
+| 2021 | Happ, J.A. (2x)    |
+| 2021 | Garcia, Luis       |
+| 2021 | Stripling, Ross    |
+| 2021 | Espino, Paolo      |
+| 2021 | Cease, Dylan       |
+| 2021 | Richards, Garrett  |
+| 2021 | Weathers, Ryan     |
+| 2021 | Smith, Caleb       |
+| 2021 | Pineda, Michael    |
+| 2021 | Hill, Rich         |
+| 2021 | McKenzie, Triston  |
+| 2021 | Urías, Julio       |
+| 2021 | Paddack, Chris     |
+| 2021 | Berrios, Jose      |
+| 2021 | Márquez, Germán (2x)|
+| 2021 | Megill, Tylor      |
+| 2021 | Ryu, Hyun Jin      |
+| 2021 | Kaprielian, James  |
+| 2021 | Gonzales, Marco    |
+| 2022 | Bradish, Kyle      |
+| 2022 | Márquez, Germán (3x)|
+| 2022 | Adon, Joan         |
+| 2022 | Lyles, Jordan (2x) |
+| 2022 | Steele, Justin     |
+| 2022 | Heasley, Jonathan  |
+| 2022 | Rogers, Trevor     |
+| 2022 | Anderson, Ian      |
+| 2022 | Senzatela, Antonio |
+| 2022 | Plesac, Zach (2x)  |
+| 2022 | Garcia, Luis (2x)  |
+| 2022 | Gausman, Kevin (2x)|
+| 2022 | Carrasco, Carlos   |
+| 2022 | Flexen, Chris      |
+| 2022 | Thompson, Keegan   |
+| 2022 | Bumgarner Madison  |
+| 2022 | Wells, Tyler       |
+| 2022 | Bubic, Kris        |
+| 2022 | Kaprielian, James (2x)|
+| 2022 | Gonsolin, Tony     |
+| 2022 | Espino, Paolo (2x) |
+| 2022 | Walker, Taijuan    |
+| 2022 | Giolito, Lucas     |
+| 2022 | White, Mitch       |
+| 2022 | Gonzales, Marco (2x)|
+| 2022 | Greinke, Zack (2x) |
+| 2023 | Megill, Tylor (2x) |
+| 2023 | Gore, MacKenzie    |
+| 2023 | Brown, Hunter      |
+| 2023 | Oviedo, Johan      |
+| 2023 | Flaherty, Jack     |
+| 2023 | Senga, Kodai       |
+| 2023 | Snell, Blake       |
+| 2023 | Nelson, Ryne       |
+| 2023 | Seabold, Connor    |
+| 2023 | Weaver, Luke       |
+| 2023 | Gomber, Austin (2x)|
 
-  - 2022 Jon Gray
-  - 2022 Charlie Morton
-  - 2022 Andre Pallante
-  - 2022 Brad Keller
-  - 2022 Miles Mikolas
-
- 
-  - 2023 Justin Verlander
-  - 2023 Jesus Luzardo
-  - 2023 Tanner Bibee
 
 
 
-- List of guys throwing the bad fastball below average wOBA
 
-  - 2019 Greinke?
-  - 2019 Caleb Smith?
-  - 2022 Tyler Anderson?
-  - 2019 John Means?
-  - 2021 Kevin Gausman?
-  - 2021 Keegan Akin?
-  - 2021 Cole Irvin?
-  - 2019 Drew Pomeranz?
-  - 2022 Jose Urquidy?
-  - 2022 Pablo Lopez?
-  - 2023 Nick Pivetta?
-  - 2023 Justin Steele?
-  - 2019 Spencer Turnbull?
-  - 2019 Mike Fiers?
-  - 2021 Brent Suter?
-  - 2023 James Paxton?
-  - 2021 Taijuan Walker?
-  - 2019 Eric Lauer?
-  - 2021 Max Fried?
-  - 2019 Blake Snell?
-  - 2021 Kris Bubic?
-  - 2019/22/21 Robbie Ray?
-  - 2021 Zac Gallen?
-  - 2022 Taylor Hearn?
-  - 2019 Jeff Samardjzia?
-  - 2023 Kevin Gausman?
-  - 2021 Luis Patino?
-  - 2021 Frankie Montas?
-  - 2021 Trevor Rogers?
-  - 2019 Lance Lynn?
-  - 2019 Charlie Morton?
-  - 2019 Zack Greinke?
-  - 2022 Merrill Kelly?
-  - 2022 Julio Urias?
-  - 2021 Jose Urquidy?
-  - 2021 Madison Bumgarner?
-  - 2021 Charlie Morton?
-  - 2019 Chris Paddack?
-  - 2019 Liam Hendriks?
-  - 2022 Brock Burke?
-  - 2022 Triston Mackenzie?
-  - 2019 Lucas Giolito?
-  - 2022 Carlos Rodon?
-  - 2022 Cole Irvin?
-  - 2022 Alek Manoah?
-  - 2021 Drew Rasmussen?
-  - 2022 Eric Lauer?
-  - 2021 Richard Rodriguez?
-  - 2019 Colin Poche?
-  - 2023 Zac Gallen?
-  - 2019 Julio Urias?
-  - 2021 Jake McGee?
-  - 2022 Zac Gallen?
-  - 2019 Brandon Woodruff?
-  - 2022 Justin Verlander?
+
+- List of guys throwing the bad fastball effectively
+
+ | Year | Pitcher            |
+|------|--------------------|
+| 2019 | Zack Greinke       |
+| 2019 | Jordan Lyles       |
+| 2019 | Richard Rodriguez  |
+| 2019 | Trevor Richards    |
+| 2019 | Pablo Lopez        |
+| 2019 | Michael Pineda     |
+| 2019 | Noah Syndergaard   |
+| 2019 | Miles Mikolas      |
+| 2019 | Sandy Alcantara    |
+| 2019 | Zach Eflin         |
+| 2019 | Chris Archer       |
+| 2019 | Clayton Kershaw    |
+| 2019 | Caleb Smith        |
+| 2019 | John Means         |
+| 2019 | Marco Gonzalez     |
+| 2019 | Drew Pomeranz      |
+| 2019 | Shane Bieber       |
+| 2019 | Spencer Turnbull   |
+| 2019 | Mike Fiers         |
+| 2019 | Eric Lauer         |
+| 2019 | Merrill Kelly      |
+| 2019 | Stephen Strasburg  |
+| 2019 | Blake Snell        |
+| 2019 | Mike Minor         |
+| 2019 | Robbie Ray         |
+| 2019 | Lance Lynn         |
+| 2019 | Charlie Morton     |
+| 2019 | Chris Paddack      |
+| 2019 | Liam Hendriks      |
+| 2019 | Jeff Samardjzia    |
+| 2019 | Lucas Giolito      |
+| 2019 | Julio Urias        |
+| 2019 | Colin Poche        |
+| 2019 | Madison Bumgarner  |
+| 2019 | Brandon Woodruff   |
+| 2019 | Taijuan Walker     |
+| 2019 | Kris Bubic         |
+| 2019 | Jake McGee         |
+| 2021 | Kevin Gausman      |
+| 2021 | Taylor Hearn       |
+| 2021 | Keegan Akin        |
+| 2021 | Jake McGee (2x)    |
+| 2021 | Cole Irvin         |
+| 2021 | Robbie Ray (2x)    |
+| 2021 | Brent Suter        |
+| 2021 | Taijuan Walker (2x)|
+| 2021 | Lucas Giolito      |
+| 2021 | Max Fried          |
+| 2022 | Tyler Anderson     |
+| 2021 | Kris Bubic (2x)    |
+| 2021 | Zac Gallen         |
+| 2021 | Luis Patino        |
+| 2021 | Frankie Montas     |
+| 2021 | Trevor Rogers      |
+| 2021 | John Means (2x)    |
+| 2021 | Jose Urquidy       |
+| 2021 | Madison Bumgarner  |
+| 2021 | Chris Flexen       |
+| 2021 | Eric Lauer (2x)    |
+| 2021 | Charlie Morton (2x)|
+| 2021 | Drew Rasmussen     |
+| 2021 | Richard Rodriguez  |
+| 2021 | Antonio Senzatela  |
+| 2021 | Zack Greinke       |
+| 2021 | Nick Pivetta       |
+| 2021 | Blake Snell (2x)   |
+| 2021 | Ian Anderson       |
+| 2021 | Logan Gilbert      |
+| 2021 | Robbie Ray (3x)    |
+| 2021 | Mike Minor         |
+| 2021 | Tyler Matzek       |
+| 2021 | Carlos Rodon       |
+| 2022 | Jose Urquidy (2x)  |
+| 2022 | Tyler Anderson (2x)|
+| 2022 | Pablo Lopez        |
+| 2022 | Cole Irvin (2x)    |
+| 2022 | Bundy, Dylan       |
+| 2022 | Jon Gray           |
+| 2022 | McClanahan, Shane  |
+| 2021 | Zac Gallen (2x)    |
+| 2022 | Charlie Morton (3x)|
+| 2022 | Andre Pallante     |
+| 2022 | Brad Keller        |
+| 2022 | Robbie Ray (4x)    |
+| 2022 | Miles Mikolas      |
+| 2022 | Taylor Hearn (2x)  |
+| 2022 | Brock Burke        |
+| 2022 | Triston Mckenzie   |
+| 2023 | MacKenzie Gore     |
+| 2022 | Carlos Rodon       |
+| 2022 | Alek Manoah        |
+| 2022 | Jameson Taillon    |
+| 2022 | Blake Snell        |
+| 2022 | Eric Lauer (3x)    |
+| 2022 | Julio Urias (2x)   |
+| 2022 | Justin Verlander   |
+| 2022 | Nick Pivetta       |
+| 2022 | Merrill Kelly (2x) |
+| 2022 | Jon Gray           |
+| 2022 | Andre Pallante     |
+| 2022 | Brad Keller        |
+| 2022 | Miles Mikolas (2x) |
+| 2023 | Nick Pivetta (2x)  |
+| 2023 | Justin Steele      |
+| 2023 | James Paxton       |
+| 2023 | Kevin Gausman (2x) |
+| 2023 | Zac Gallen (3x)    |
+| 2023 | Justin Verlander(2x)|
+| 2023 | Jesus Luzardo      |
+| 2023 | Tanner Bibee       |
+| 2023 | Lucas Giolito      |
+| 2023 | Logan Gilbert (2x) |
+
 
 Joe Musgrove, Justin Steele, Carlos Rodon
 
