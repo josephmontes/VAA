@@ -53,241 +53,126 @@ These fastballs account for about 40% of all fastballs currently
 
 # 2. PLAYERS
 
-Who has thrown this fastball at an above average rate (above 39.1%) and with above average success (below .350 wOBA)?
-- .350 wOBA because that is the average wOBA against 4-Seam Fastballs 
+Who has thrown this fastball at an above average rate (above 30%) and with above average success (below .350 wOBA)?
+- .350 wOBA because that is the average wOBA against 4-Seam Fastballs
 
 
-| game_year | player_name      | xwOBA |
-|-----------|------------------|-------|
-| 2019      | Emilio Pagán     | 0.247 |
-| 2019      | Trevor May       | 0.248 |
-| 2019      | Trevor Gott      | 0.253 |
-| 2019      | Gerrit Cole      | 0.264 |
-| 2019      | Jack Flaherty    | 0.273 |
-| 2019      | Mike Clevinger   | 0.284 |
-| 2019      | Jacob deGrom     | 0.302 |
-| 2019      | Max Scherzer     | 0.308 |
-| 2019      | John Brebbia     | 0.314 |
-| 2019      | Mychal Givens    | 0.316 |
-| 2019      | Sean Doolittle   | 0.329 |
-| 2019      | Daniel Hudson    | 0.332 |
-| 2019      | Edwin Díaz       | 0.332 |
-| 2019      | Vince Velasquez  | 0.334 |
-| 2019      | Joe Jiménez      | 0.342 |
-| 2020      | Gerrit Cole      | 0.319 |
-| 2021      | Jacob deGrom     | 0.224 |
-| 2021      | Lance Lynn       | 0.255 |
-| 2021      | Paul Sewald      | 0.262 |
-| 2021      | Liam Hendriks    | 0.265 |
-| 2021      | Freddy Peralta   | 0.275 |
-| 2021      | Zack Wheeler     | 0.279 |
-| 2021      | Ian Kennedy      | 0.279 |
-| 2021      | Max Scherzer     | 0.280 |
-| 2021      | Johnny Cueto     | 0.282 |
-| 2021      | Nestor Cortes    | 0.287 |
-| 2021      | Walker Buehler   | 0.295 |
-| 2021      | Michael Kopech   | 0.297 |
-| 2021      | Trevor Bauer     | 0.298 |
-| 2021      | Gerrit Cole      | 0.298 |
-| 2021      | Trevor May       | 0.298 |
-| 2021      | Kolby Allard     | 0.325 |
-| 2021      | Anthony DeSclafani| 0.325 |
-| 2021      | Luke Weaver      | 0.326 |
-| 2021      | Bailey Ober      | 0.326 |
-| 2021      | Carlos Hernández | 0.327 |
-| 2021      | Edwin Díaz       | 0.327 |
-| 2021      | Tyler Mahle      | 0.336 |
-| 2021      | Cristian Javier  | 0.349 |
-| 2022      | Luis Castillo    | 0.208 |
-| 2022      | Alexis Díaz      | 0.244 |
-| 2022      | Alex Vesia       | 0.257 |
-| 2022      | Joe Ryan         | 0.267 |
-| 2022      | Aaron Nola       | 0.269 |
-| 2022      | Spencer Strider  | 0.275 |
-| 2022      | Zack Wheeler     | 0.279 |
-| 2022      | Cristian Javier  | 0.280 |
-| 2022      | José Quijada     | 0.282 |
-| 2022      | Brandon Woodruff | 0.286 |
-| 2022      | Freddy Peralta   | 0.290 |
-| 2022      | Tyler Mahle      | 0.292 |
-| 2022      | Trevor Williams  | 0.294 |
-| 2022      | Michael Kopech   | 0.300 |
-| 2022      | Sean Manaea      | 0.308 |
-| 2022      | Joe Jiménez      | 0.315 |
-| 2022      | Phil Bickford    | 0.329 |
-| 2022      | Craig Kimbrel    | 0.337 |
-| 2022      | Ian Kennedy      | 0.339 |
-| 2022      | Will Vest        | 0.347 |
-| 2023      | Luis Castillo    | 0.270 |
-| 2023      | George Kirby     | 0.282 |
-| 2023      | Zack Wheeler     | 0.282 |
-| 2023      | Phil Bickford    | 0.288 |
-| 2023      | Aaron Nola       | 0.293 |
-| 2023      | Pablo López      | 0.306 |
-| 2023      | Joe Ryan         | 0.306 |
-| 2023      | Freddy Peralta   | 0.318 |
-| 2023      | Andrew Heaney    | 0.322 |
-| 2023      | Bryce Miller     | 0.323 |
-| 2023      | Bailey Ober      | 0.327 |
-| 2023      | Cristian Javier  | 0.327 |
-| 2023      | Max Scherzer     | 0.337 |
-| 2023      | Yusei Kikuchi    | 0.346 |
-
-
-| Year | Pitcher             | 
-|------|---------------------|
-| 2019 | Jacob deGrom        |
-| 2019 | Gerrit Cole         |
-| 2019 | Walker Buehler      |
-| 2019 | Max Scherzer        |
-| 2019 | Zack Wheeler        |
-| 2019 | Jose Berrios        |
-| 2019 | Chris Sale          |
-| 2019 | Jake Odorizzi       |
-| 2019 | Mike Clevinger      |
-| 2019 | Jack Flaherty       |
-| 2019 | Mychael Givens      |
-| 2019 | Sean Doolittle      |
-| 2019 | Daniel Hudson       |
-| 2019 | Vince Velazquez     |
-| 2019 | Anthony Descalfani  |
-| 2019 | Tyler Mahle         |
-| 2021 | Freddy Peralta      |
-| 2021 | Chad Green          |
-| 2021 | Brandon Woodruff    |
-| 2021 | Lance Lynn          |
-| 2021 | Liam Hendriks       |
-| 2021 | Ian Kennedy         |
-| 2021 | Zack Wheeler (2x)   |
-| 2021 | Max Scherzer (2x)   |
-| 2021 | Walker Buehler (2x) |
-| 2021 | Jameson Taillon     |
-| 2021 | Michael Kopech      |
-| 2021 | Gerrit Cole (2x)    |
-| 2021 | Jake Odorizzi (2x)  |
-| 2021 | Yusei Kikuchi       |
-| 2021 | Koby Allard         |
-| 2021 | Bailey Ober         |
-| 2021 | Carlos Hernandez    |
-| 2021 | Tyler Mahle (2x)    |
-| 2021 | Cristian Javier     |
-| 2022 | Brandon Woodruff (2x)|
-| 2022 | Lance Lynn (2x)     |
-| 2022 | Freddy Peralta (2x) |
-| 2022 | Tyler Mahle (2x)    |
-| 2022 | Trevor Williams     |
-| 2022 | Nestor Cortes       |
-| 2022 | Luis Castillo       |
-| 2022 | Yu Darvish          |
-| 2022 | Jose Quintana       |
-| 2022 | George Kirby        |
-| 2022 | Joe Ryan            |
-| 2022 | Aaron Nola          |
-| 2022 | Spencer Strider     |
-| 2022 | Drew Rasmussen      |
-| 2022 | Zack Wheeler (3x)   |
-| 2022 | Sean Manaea         |
-| 2022 | Gerrit Cole (3x)    |
-| 2022 | Jeffrey Springs     |
-| 2022 | Reid Detmers        |
-| 2022 | Dylan Cease         |
-| 2022 | Jake Odorizzi (3x)  |
-| 2022 | Logan Gilbert       |
-| 2022 | Michael Kopech (2x) |
-| 2021 | Max Scherzer (3x)   |
-| 2022 | Sandy Alcantara     |
-| 2023 | Luis Castillo (2x)  |
-| 2023 | George Kirby (2x)   |
-| 2023 | Zack Wheeler (4x)   |
-| 2023 | Gerrit Cole (4x)    |
-| 2023 | Joe Ryan (2x)       |
-| 2023 | Pablo Lopez         |
-| 2023 | Freddy Peralta (3x) |
-| 2023 | Andrew Heaney       |
-| 2023 | Bryce Miller        |
-| 2023 | Cristian Javier (2x)|
-| 2023 | Bailey Ober (2x)    |
-| 2023 | Max Scherzer (4x)   |
-| 2023 | Yusei Kikuchi (2x)  |
-| 2023 | Dean Kremer         |
+| game_year | player_name      | xwOBA | rate |
+|-----------|------------------|-------|------|
+| 2019      | Emilio Pagán     | 0.247 | 38%  |
+| 2019      | Trevor May       | 0.248 | 34%  |
+| 2019      | Trevor Gott      | 0.253 | 34%  |
+| 2019      | Gerrit Cole      | 0.264 | 39%  |
+| 2019      | Jack Flaherty    | 0.273 | 32%  |
+| 2019      | Mike Clevinger   | 0.284 | 31%  |
+| 2019      | Jacob deGrom     | 0.302 | 39%  |
+| 2019      | Max Scherzer     | 0.308 | 32%  |
+| 2019      | John Brebbia     | 0.314 | 33%  |
+| 2019      | Mychal Givens    | 0.316 | 32%  |
+| 2019      | Sean Doolittle   | 0.329 | 34%  |
+| 2019      | Daniel Hudson    | 0.332 | 35%  |
+| 2019      | Edwin Díaz       | 0.332 | 39%  |
+| 2019      | Vince Velasquez  | 0.334 | 30%  |
+| 2019      | Joe Jiménez      | 0.342 | 30%  |
+| 2020      | Gerrit Cole (2x) | 0.319 | 43%  |
+| 2021      | Jacob deGrom (2x)| 0.224 | 40%  |
+| 2021      | Lance Lynn       | 0.255 | 31%  |
+| 2021      | Paul Sewald      | 0.262 | 42%  |
+| 2021      | Liam Hendriks    | 0.265 | 39%  |
+| 2021      | Freddy Peralta   | 0.275 | 42%  |
+| 2021      | Zack Wheeler     | 0.279 | 30%  |
+| 2021      | Ian Kennedy      | 0.279 | 42%  |
+| 2021      | Max Scherzer (2x)| 0.280 | 30%  |
+| 2021      | Johnny Cueto     | 0.282 | 34%  |
+| 2021      | Nestor Cortes    | 0.287 | 30%  |
+| 2021      | Walker Buehler   | 0.295 | 32%  |
+| 2021      | Michael Kopech   | 0.297 | 38%  |
+| 2021      | Trevor Bauer     | 0.298 | 31%  |
+| 2021      | Gerrit Cole (3x) | 0.298 | 39%  |
+| 2021      | Trevor May (2x)  | 0.298 | 39%  |
+| 2021      | Kolby Allard     | 0.325 | 30%  |
+| 2021      | Anthony DeSclafani| 0.325 | 32% |
+| 2021      | Luke Weaver      | 0.326 | 30%  |
+| 2021      | Bailey Ober      | 0.326 | 32%  |
+| 2021      | Carlos Hernández | 0.327 | 32%  |
+| 2021      | Edwin Díaz (2x)  | 0.327 | 39%  |
+| 2021      | Tyler Mahle      | 0.336 | 37%  |
+| 2021      | Cristian Javier  | 0.349 | 40%  |
+| 2022      | Luis Castillo    | 0.208 | 36%  |
+| 2022      | Alexis Díaz      | 0.244 | 44%  |
+| 2022      | Alex Vesia       | 0.257 | 37%  |
+| 2022      | Joe Ryan         | 0.267 | 47%  |
+| 2022      | Aaron Nola       | 0.269 | 38%  |
+| 2022      | Spencer Strider  | 0.275 | 33%  |
+| 2022      | Zack Wheeler (2x)| 0.279 | 35%  |
+| 2022      | Cristian Javier (2x)| 0.280 | 41%  |
+| 2022      | José Quijada     | 0.282 | 40%  |
+| 2022      | Brandon Woodruff | 0.286 | 32%  |
+| 2022      | Freddy Peralta (2x)| 0.290 | 38%  |
+| 2022      | Tyler Mahle (2x) | 0.292 | 42%  |
+| 2022      | Trevor Williams  | 0.294 | 33%  |
+| 2022      | Michael Kopech (2x)| 0.300 | 35%  |
+| 2022      | Sean Manaea      | 0.308 | 31%  |
+| 2022      | Joe Jiménez (2x) | 0.315 | 32%  |
+| 2022      | Phil Bickford    | 0.329 | 38%  |
+| 2022      | Craig Kimbrel    | 0.337 | 40%  |
+| 2022      | Ian Kennedy (2x) | 0.339 | 34%  |
+| 2022      | Will Vest        | 0.347 | 31%  |
+| 2023      | Luis Castillo (2x)| 0.270 | 45%  |
+| 2023      | George Kirby     | 0.282 | 34%  |
+| 2023      | Zack Wheeler (3x)| 0.282 | 40%  |
+| 2023      | Phil Bickford (2x)| 0.288 | 41%  |
+| 2023      | Aaron Nola (2x)  | 0.293 | 36%  |
+| 2023      | Pablo López      | 0.306 | 36%  |
+| 2023      | Joe Ryan (2x)    | 0.306 | 49%  |
+| 2023      | Freddy Peralta (3x)| 0.318 | 41%  |
+| 2023      | Andrew Heaney    | 0.322 | 44%  |
+| 2023      | Bryce Miller     | 0.323 | 38%  |
+| 2023      | Bailey Ober (2x) | 0.327 | 32%  |
+| 2023      | Cristian Javier (3x)| 0.327 | 38%  |
+| 2023      | Max Scherzer (3x)| 0.337 | 35%  |
+| 2023      | Yusei Kikuchi    | 0.346 | 36%  |
 
 Who is throwing it without success?
+- These players should be viewed as potential progression candidates with regards to their fastball
 
-| game_year | player_name          | xwOBA |
-|-----------|----------------------|-------|
-| 2019      | Elieser Hernández    | 0.419 |
-| 2019      | Trevor Bauer         | 0.418 |
-| 2019      | Matt Strahm          | 0.397 |
-| 2019      | Aaron Nola           | 0.391 |
-| 2019      | Thomas Pannone       | 0.386 |
-| 2019      | Freddy Peralta       | 0.373 |
-| 2019      | Caleb Ferguson       | 0.351 |
-| 2020      | Andrew Heaney        | 0.361 |
-| 2021      | Josiah Gray          | 0.419 |
-| 2021      | Vladimir Gutierrez   | 0.413 |
-| 2021      | Trevor Stephan       | 0.383 |
-| 2021      | Andrew Heaney        | 0.371 |
-| 2021      | Luis Castillo        | 0.361 |
-| 2021      | Hansel Robles        | 0.357 |
-| 2021      | Emilio Pagán         | 0.355 |
-| 2021      | Aaron Nola           | 0.351 |
-| 2021      | Nathan Eovaldi       | 0.351 |
-| 2022      | Josiah Gray          | 0.489 |
-| 2022      | José Berríos         | 0.443 |
-| 2022      | José Suarez          | 0.411 |
-| 2022      | JP Sears             | 0.378 |
-| 2022      | Nathan Eovaldi       | 0.373 |
-| 2022      | Hunter Greene        | 0.369 |
-| 2022      | Mike Clevinger       | 0.359 |
-| 2022      | Andrew Heaney        | 0.352 |
-| 2023      | Grayson Rodriguez    | 0.434 |
-| 2023      | Ken Waldichuk        | 0.425 |
-| 2023      | Logan Allen          | 0.383 |
-| 2023      | Michael Kopech       | 0.377 |
-| 2023      | JP Sears             | 0.367 |
-| 2023      | Spencer Strider      | 0.354 |
+| game_year | player_name          | xwOBA | rate | wOBA next year |
+|-----------|----------------------|-------|------|----------------|
+| 2019      | Elieser Hernández    | 0.419 | 32%  | 0.360          |
+| 2019      | Trevor Bauer         | 0.418 | 36%  | 0.270          |
+| 2019      | Matt Strahm          | 0.397 | 32%  | 0.356          |
+| 2019      | Aaron Nola           | 0.391 | 32%  | 0.241          |
+| 2019      | Thomas Pannone       | 0.386 | 32%  | NA             |
+| 2019      | Freddy Peralta       | 0.373 | 39%  | 0.252          |
+| 2019      | Caleb Ferguson       | 0.351 | 32%  | 0.317          |
+| 2020      | Andrew Heaney        | 0.361 | 35%  | 0.371          |
+| 2021      | Josiah Gray          | 0.419 | 36%  | 0.491          |
+| 2021      | Vladimir Gutierrez   | 0.413 | 35%  | 0.474*         |
+| 2021      | Trevor Stephan       | 0.383 | 31%  | 0.358          |
+| 2021      | Andrew Heaney        | 0.371 | 37%  | 0.354          |
+| 2021      | Luis Castillo        | 0.361 | 41%  | 0.219          |
+| 2021      | Hansel Robles        | 0.357 | 31%  | 0.355          |
+| 2021      | Emilio Pagán         | 0.355 | 36%  | 0.321          |
+| 2021      | Aaron Nola (2x)      | 0.351 | 32%  | 0.262          |
+| 2021      | Nathan Eovaldi       | 0.351 | 34%  | 0.372          |
+| 2022      | Josiah Gray (2x)     | 0.489 | 40%  | 0.428*         |
+| 2022      | José Berríos         | 0.443 | 32%  | 0.360          |
+| 2022      | José Suarez          | 0.411 | 36%  | 0.388          |
+| 2022      | JP Sears             | 0.378 | 37%  | 0.367          |
+| 2022      | Nathan Eovaldi (2x)  | 0.372 | 32%  | 0.301          |
+| 2022      | Hunter Greene        | 0.369 | 30%  | NA             |
+| 2022      | Mike Clevinger       | 0.359 | 36%  | 0.364          |
+| 2022      | Andrew Heaney (2x)   | 0.352 | 44%  | 0.319          |
+| 2023      | Grayson Rodriguez    | 0.434 | 34%  | NA             |
+| 2023      | Ken Waldichuk        | 0.425 | 31%  | NA             |
+| 2023      | Logan Allen          | 0.383 | 42%  | NA             |
+| 2023      | Michael Kopech       | 0.377 | 34%  | NA             |
+| 2023      | JP Sears (2x)        | 0.367 | 40%  | NA             |
+| 2023      | Spencer Strider      | 0.354 | 32%  | NA             |
 
+Bauer, Nola (2x), Peralta, Ferguson, Castillo, Pagan, Eovaldi, Heaney - already progressed
 
-
-| Year | Pitcher              |
-|------|----------------------|
-| 2019 | Sonny Gray           |
-| 2019 | Elieser Hernandez    |
-| 2019 | Trevor Bauer         |
-| 2019 | Aaron Nola           |
-| 2019 | Trent Thornton       |
-| 2019 | Thomas Pannone       |
-| 2019 | Asher Wojciechowski  |
-| 2019 | Freddy Peralta       |
-| 2019 | Domingo German       |
-| 2019 | Tanner Roark         |
-| 2019 | Julio Teheran        |
-| 2021 | Vladimir Gutierrez   |
-| 2021 | Andrew Heaney        |
-| 2021 | Hunter Greene        |
-| 2021 | Luis Castillo        |
-| 2021 | Nathan Eovaldi       |
-| 2021 | Trevor Williams      |
-| 2021 | Vince Velazquez      |
-| 2021 | Aaron Nola (2x)      |
-| 2022 | Josiah Gray          |
-| 2022 | Jose Berrios         |
-| 2022 | Yusei Kikuchi        |
-| 2022 | Vince Velazquez      |
-| 2022 | Daniel Lynch         |
-| 2022 | Roansy Contreras     |
-| 2022 | Mitch Keller         |
-| 2022 | Hunter Greene (2x)   |
-| 2022 | Shane Bieber         |
-| 2022 | Andrew Heaney (2x)   |
-| 2023 | Ken Waldichuk        |
-| 2023 | Reid Detmers         |
-| 2023 | Michael Kopech       |
-| 2023 | Dylan Cease          |
-| 2023 | Trevor Williams      |
-| 2023 | Hunter Greene (3x)   |
-| 2023 | JP Sears             |
-| 2023 | Spencer Strider      |
+Greene, Rodriguez, Waldichuk, Allen, Kopech, Sears, Strider
 
 
 Kikuchi, Berrios, Castillo, Peralta, Nola, Kopech, Detmers,
@@ -316,115 +201,121 @@ Who is not throwing it with success?
    
 - List of guys throwing the bad fastball badly
   
-| game_year | player_name      | xwOBA |
-|-----------|------------------|-------|
-| 2019      | Sean Newcomb     | 0.350 |
-| 2019      | Tyler Skaggs     | 0.353 |
-| 2019      | Aníbal Sánchez   | 0.354 |
-| 2019      | Justin Verlander | 0.357 |
-| 2019      | Brad Keller      | 0.357 |
-| 2019      | Germán Márquez   | 0.364 |
-| 2019      | Shaun Anderson   | 0.366 |
-| 2019      | Wilmer Font      | 0.366 |
-| 2019      | Patrick Corbin   | 0.369 |
-| 2019      | Max Fried        | 0.374 |
-| 2019      | Jason Vargas     | 0.380 |
-| 2019      | Kyle Freeland    | 0.382 |
-| 2019      | Andrew Cashner   | 0.384 |
-| 2019      | Joe Musgrove     | 0.407 |
-| 2019      | Michael Wacha    | 0.415 |
-| 2019      | Cole Hamels      | 0.415 |
-| 2019      | Peter Lambert    | 0.420 |
-| 2019      | Jon Gray         | 0.420 |
-| 2019      | Antonio Senzatela| 0.423 |
-| 2019      | Tommy Milone     | 0.431 |
-| 2019      | Taylor Clarke    | 0.439 |
-| 2019      | Jakob Junis      | 0.448 |
-| 2019      | Dereck Rodríguez | 0.462 |
-| 2019      | Dylan Cease      | 0.472 |
-| 2019      | Jeff Hoffman     | 0.483 |
-| 2020      | Antonio Senzatela| 0.374 |
-| 2021      | Hyun Jin Ryu     | 0.356 |
-| 2021      | Michael Pineda   | 0.361 |
-| 2021      | Germán Márquez   | 0.365 |
-| 2021      | Huascar Ynoa     | 0.368 |
-| 2021      | Kwang Hyun Kim   | 0.371 |
-| 2021      | J.A. Happ        | 0.382 |
-| 2021      | Ross Stripling   | 0.383 |
-| 2021      | Shane McClanahan | 0.385 |
-| 2021      | Garrett Richards | 0.389 |
-| 2021      | Chi Chi González | 0.401 |
-| 2021      | Patrick Corbin   | 0.402 |
-| 2021      | Matt Moore       | 0.403 |
-| 2021      | Brad Keller      | 0.405 |
-| 2021      | Matt Harvey      | 0.407 |
-| 2021      | Austin Gomber    | 0.417 |
-| 2021      | Tarik Skubal     | 0.418 |
-| 2021      | Jon Lester       | 0.420 |
-| 2022      | Zack Greinke     | 0.351 |
-| 2022      | Tyler Wells      | 0.355 |
-| 2022      | Taijuan Walker   | 0.359 |
-| 2022      | Lucas Giolito    | 0.359 |
-| 2022      | Michael Wacha    | 0.380 |
-| 2022      | Justin Steele    | 0.393 |
-| 2022      | Chris Flexen     | 0.398 |
-| 2022      | Brent Suter      | 0.402 |
-| 2022      | Drew Hutchison   | 0.405 |
-| 2022      | Kyle Bradish     | 0.418 |
-| 2022      | Antonio Senzatela| 0.444 |
-| 2022      | Austin Gomber    | 0.471 |
-| 2023      | Blake Snell      | 0.375 |
-| 2023      | Tyler Anderson   | 0.427 |
-| 2023      | Austin Gomber    | 0.452 |
+| game_year | player_name      | xwOBA | rate |
+|-----------|------------------|-------|------|
+| 2019      | Sean Newcomb     | 0.350 |  2%  |
+| 2019      | Tyler Skaggs     | 0.353 |  0%  |
+| 2019      | Aníbal Sánchez   | 0.354 |  6%  |
+| 2019      | Justin Verlander | 0.357 |  2%  |
+| 2019      | Brad Keller      | 0.357 |  7%  |
+| 2019      | Germán Márquez   | 0.364 |  4%  |
+| 2019      | Shaun Anderson   | 0.366 |  2%  |
+| 2019      | Wilmer Font      | 0.366 |  5%  |
+| 2019      | Patrick Corbin   | 0.369 |  5%  |
+| 2019      | Max Fried        | 0.374 |  4%  |
+| 2019      | Jason Vargas     | 0.380 |  6%  |
+| 2019      | Kyle Freeland    | 0.382 |  5%  |
+| 2019      | Andrew Cashner   | 0.384 |  3%  |
+| 2019      | Joe Musgrove     | 0.407 |  0%  |
+| 2019      | Michael Wacha    | 0.415 |  1%  |
+| 2019      | Cole Hamels      | 0.415 |  3%  |
+| 2019      | Peter Lambert    | 0.420 |  1%  |
+| 2019      | Jon Gray         | 0.420 |  7%  |
+| 2019      | Antonio Senzatela| 0.423 |  2%  |
+| 2019      | Tommy Milone     | 0.431 |  4%  |
+| 2019      | Taylor Clarke    | 0.439 |  6%  |
+| 2019      | Jakob Junis      | 0.448 |  7%  |
+| 2019      | Dereck Rodríguez | 0.462 |  5%  |
+| 2019      | Dylan Cease      | 0.472 |  7%  |
+| 2019      | Jeff Hoffman     | 0.483 |  6%  |
+| 2020      | Antonio Senzatela (2x)| 0.374 |  6%  |
+| 2021      | Hyun Jin Ryu     | 0.356 |  4%  |
+| 2021      | Michael Pineda   | 0.361 |  1%  |
+| 2021      | Germán Márquez (2x)| 0.365 |  3%  |
+| 2021      | Huascar Ynoa     | 0.368 |  5%  |
+| 2021      | Kwang Hyun Kim   | 0.371 |  6%  |
+| 2021      | J.A. Happ        | 0.382 |  7%  |
+| 2021      | Ross Stripling   | 0.383 |  1%  |
+| 2021      | Shane McClanahan | 0.385 |  6%  |
+| 2021      | Garrett Richards | 0.389 |  5%  |
+| 2021      | Chi Chi González | 0.401 |  1%  |
+| 2021      | Patrick Corbin (2x)| 0.402 |  2%  |
+| 2021      | Matt Moore       | 0.403 |  3%  |
+| 2021      | Brad Keller (2x) | 0.405 |  4%  |
+| 2021      | Matt Harvey      | 0.407 |  5%  |
+| 2021      | Austin Gomber    | 0.417 |  0%  |
+| 2021      | Tarik Skubal     | 0.418 |  7%  |
+| 2021      | Jon Lester       | 0.420 |  4%  |
+| 2022      | Zack Greinke     | 0.351 |  1%  |
+| 2022      | Tyler Wells      | 0.355 |  3%  |
+| 2022      | Taijuan Walker   | 0.359 |  6%  |
+| 2022      | Lucas Giolito    | 0.359 |  7%  |
+| 2022      | Michael Wacha    | 0.380 |  3%  |
+| 2022      | Justin Steele    | 0.393 |  3%  |
+| 2022      | Chris Flexen     | 0.398 |  0%  |
+| 2022      | Brent Suter      | 0.402 |  0%  |
+| 2022      | Drew Hutchison   | 0.405 |  7%  |
+| 2022      | Kyle Bradish     | 0.418 |  6%  |
+| 2022      | Antonio Senzatela (3x)| 0.444 |  3%  |
+| 2022      | Austin Gomber (2x)| 0.471 |  0%  |
+| 2023      | Blake Snell      | 0.375 |  4%  |
+| 2023      | Tyler Anderson   | 0.427 |  6%  |
+| 2023      | Austin Gomber (3x)| 0.452 |  1%  |
 
 
 
 
 - List of guys throwing the bad fastball effectively
 
-| game_year | player_name        | wOBA | 
-|-----------|-------------------|-------|
-| 2019      | Giovanny Gallegos | 0.271 | 
-| 2019      | Lucas Giolito     | 0.291 | 
-| 2019      | Dan Ponce de Leon | 0.295 | 
-| 2019      | Zack Greinke      | 0.303 |
-| 2019      | Blake Snell       | 0.319 |
-| 2019      | Eric Lauer        | 0.323 |
-| 2019      | Javy Guerra       | 0.324 |
-| 2019      | Mike Fiers        | 0.327 |
-| 2019      | Michael Feliz     | 0.330 | 
-| 2019      | Clayton Kershaw   | 0.332 | 
-| 2019      | John Means        | 0.335 | 
-| 2019      | Caleb Smith       | 0.340 | 
-| 2019      | Miles Mikolas     | 0.345 | 
-| 2019      | Michael Pineda    | 0.348 |
-| 2020      | Lucas Giolito (2x)| 0.262 | 
-| 2021      | Giovanny Gallegos | 0.262 | 
-| 2021      | Carlos Rodón      | 0.280 |
-| 2021      | Michael Wacha     | 0.316 | 
-| 2021      | Max Fried         | 0.321 | 
-| 2021      | Brent Suter       | 0.325 | 
-| 2021      | Antonio Senzatela | 0.327 | 
-| 2021      | Blake Snell (2x)  | 0.327 |
-| 2021      | Cole Irvin        | 0.333 | 
-| 2021      | Chris Flexen      | 0.346 | 
-| 2021      | Zack Greinke      | 0.346 | 
-| 2022      | Justin Verlander  | 0.247 | 
-| 2022      | Joe Musgrove (2x) | 0.280 | 
-| 2022      | Miles Mikolas     | 0.281 | 
-| 2022      | Cole Irvin (2x)   | 0.289 | 
-| 2022      | Brad Keller       | 0.316 | 
-| 2022      | Ross Stripling    | 0.318 |
-| 2022      | Félix Bautista    | 0.318 |
-| 2022      | Andre Pallante    | 0.328 | 
-| 2022      | Spenser Watkins   | 0.349 | 
-| 2022      | Blake Snell (3x)  | 0.349 | 
-| 2023      | Félix Bautista (2x)| 0.268 | 
-| 2023      | Tanner Bibee      | 0.305 | 
-| 2023      | Tyler Wells       | 0.315 | 
-| 2023      | Justin Steele     | 0.328 | 
-| 2023      | Justin Verlander (2x)| 0.330 | 
+| game_year | player_name       | wOBA  | rate | wOBA next year |
+|-----------|-------------------|-------|------|----------------|
+| 2019      | Giovanny Gallegos | 0.271 |  2%  | 0.328          |
+| 2019      | Lucas Giolito     | 0.291 |  5%  | 0.261          |
+| 2019      | Dan Ponce de Leon | 0.295 |  2%  | 0.368          |
+| 2019      | Zack Greinke      | 0.303 |  0%  | 0.388          |
+| 2019      | Blake Snell       | 0.319 |  4%  | 0.461          |
+| 2019      | Eric Lauer        | 0.323 |  7%  | 0.396          |
+| 2019      | Javy Guerra       | 0.324 |  2%  | 0.321          |
+| 2019      | Mike Fiers        | 0.327 |  7%  | 0.277          |
+| 2019      | Michael Feliz     | 0.330 |  6%  | 0.414*         |
+| 2019      | Clayton Kershaw   | 0.332 |  6%  | 0.353*         |
+| 2019      | John Means        | 0.335 |  2%  | 0.348*         |
+| 2019      | Caleb Smith       | 0.340 |  7%  | 0.367*         |
+| 2019      | Miles Mikolas     | 0.345 |  1%  | 0.281**        |
+| 2019      | Michael Pineda    | 0.348 |  0%  | 0.362*         |
+| 2020      | Lucas Giolito (2x)| 0.262 |  7%  | 0.344          |
+| 2021      | Giovanny Gallegos (2x)| 0.262 |  4%  | 0.297      |
+| 2021      | Carlos Rodón      | 0.280 |  5%  | 0.289          |
+| 2021      | Michael Wacha     | 0.316 |  6%  | 0.380          |
+| 2021      | Max Fried         | 0.321 |  5%  | NA             |
+| 2021      | Brent Suter       | 0.325 |  0%  | 0.403          |
+| 2021      | Antonio Senzatela | 0.327 |  4%  | 0.442          |
+| 2021      | Blake Snell (2x)  | 0.327 |  5%  | 0.354          |
+| 2021      | Cole Irvin        | 0.333 |  3%  | 0.288          |
+| 2021      | Chris Flexen      | 0.346 |  0%  | 0.397          |
+| 2021      | Zack Greinke (2x) | 0.346 |  0%  | 0.351          |
+| 2022      | Justin Verlander  | 0.247 |  1%  | 0.330          |
+| 2022      | Joe Musgrove (2x) | 0.280 |  2%  | 0.266*         |
+| 2022      | Miles Mikolas (2x)| 0.281 |  0%  | 0.324          |
+| 2022      | Cole Irvin (2x)   | 0.289 |  6%  | 0.307          |
+| 2022      | Brad Keller       | 0.316 |  3%  | 0.468          |
+| 2022      | Ross Stripling    | 0.318 |  0%  | 0.423          |
+| 2022      | Félix Bautista    | 0.318 |  4%  | 0.269          |
+| 2022      | Andre Pallante    | 0.328 |  5%  | 0.324          |
+| 2022      | Spenser Watkins   | 0.349 |  4%  | NA             |
+| 2022      | Blake Snell (3x)  | 0.349 |  7%  | 0.374          |
+| 2023      | Félix Bautista (2x)| 0.268 | 6%  | NA             |
+| 2023      | Tanner Bibee      | 0.305 |  6%  | NA             |
+| 2023      | Tyler Wells       | 0.315 |  1%  | NA             |
+| 2023      | Justin Steele     | 0.328 |  1%  | NA             |
+| 2023      | Justin Verlander (2x)| 0.330 | 1%| NA             |
 
+Musgrove, Steele, Bautista, Irvin, Mikolas, Verlander, Greinke, Wells, Pallante, Kershaw
+
+Snell, Keller, Stripling, Flexen, Suter, Senzatela, Wacha, Rodon
+
+
+Player Spotlights: Josiah Gray, Freddy Peralta, Andrew Heaney, the HoFers (Steele, Snell, Giolito), Rodon
 
 
 Joe Musgrove, Justin Steele, Carlos Rodon
