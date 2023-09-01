@@ -1,55 +1,80 @@
-# 0. BACKGROUND
+# 0. INTRO
 - Thank you for checking out my first research project using R.
 
 - The Statcast data used for this research was scraped using baseballr.
 
 + In this project, I analyze 4-Seam Fastballs from 2019-2023 seasons (currently August in '23 season) with a focus on their Vertical Approach Angle (VAA)
-+ Additionally, I identify pitchers and batters that are benefiting from this trend and players that are at risk of regressing
-* I followed this formula from FanGraphs website for my calculation of VAA:
++ Additionally, I identify pitchers and batters that have been benefiting from this trend and players its been a disadvantage for
+* I followed this formula posted on FanGraphs by Alex Chamberlain for my calculation of VAA:
 
-![Screenshot 2023-08-30 141448](https://github.com/josephmontes/VAA/assets/125607783/bbb0ffe8-bc70-42df-a561-49f7aba21a57)
-
-## 1. IDENTIFYING VAA TREND
+   ![Screenshot 2023-08-30 141448](https://github.com/josephmontes/VAA/assets/125607783/bbb0ffe8-bc70-42df-a561-49f7aba21a57)
    
-  - Despite 4-Seam Fastball usage slightly declining in recent years, it is still the most frequently thrown pitch
-       - being thrown at least twice as much as every pitch besides Sliders
+
+# 1. IDENTIFYING THE TREND
+
+#### Despite 4-Seam Fastball usage slightly declining in recent years, it is still the most frequently thrown pitch at 32.6%
+  - In 2023, it is being thrown at least twice as much as every pitch besides Sliders (17.8%)
 
 ![Screenshot 2023-08-29 225522](https://github.com/josephmontes/VAA/assets/125607783/0aa01456-74b1-4f70-b819-32711fa79a47)
 
 
-- Likely contributing to 4-Seam Fastball usage decline is that fact that they are hit at an above average rate according to wOBA
-
+#### Likely contributing to 4-Seam Fastball usage decline is that fact that it is hit at an above average rate according to wOBA
+   - Average wOBA is 0.320
+   - Average wOBA against 4-Seam Fastballs is .352 as of mid-August 2023
+     
 ![Screenshot 2023-08-29 225810](https://github.com/josephmontes/VAA/assets/125607783/28e91b6a-b4ef-4f3f-95b5-3b23eb7844d4)
 
 
-- However, when 4-Seamers are broken down by their VAA, we see that some 4-Seamers have been more effective than others
-     - wOBA and xwOBA decrease as a 4-Seam Fastball's VAA approaches 0
-     - Whiff% increases as a 4-Seam Fastball's VAA approaches 0
-  
+#### However, when 4-Seamers are broken down by their VAA, we find that wOBA signficantly decreases as its VAA approaches 0 degrees
+   - xwOBA is included in the graphic too
 
 ![Screenshot 2023-08-29 231032](https://github.com/josephmontes/VAA/assets/125607783/af21f4d3-00f8-4194-bd6b-6d7a5632bd99)
+  
+#### wOBA and xwOBA are plate appearance rated, so I wanted to look at a couple swing rated stats
+   - Whiff% drastically increases as a 4-Seam Fastball's VAA approaches 0 degrees
+     - League Average Whiff % is about 21%
+   - Barrel per swing decreases too as VAA approaches 0 degrees
+     - League Average Barrel per swing is 3.5%
+  
 ![Screenshot 2023-08-29 231758](https://github.com/josephmontes/VAA/assets/125607783/cc274ac1-71ef-45aa-926a-ec9ccce8e429)
 
-
-   - It appears that -4.5 degrees is signficant, as it is the value where wOBA, xwOBA and Whiff% cross their league average thresholds
-
-   -  But are all 4-Seam Fastballs thrown at this -4.5 angle or greater the same? 
-
-        - The following graphic shows that it is best utilized in the top of the zone
-
-![Screenshot 2023-08-29 235356](https://github.com/josephmontes/VAA/assets/125607783/779aa2a1-8b24-447d-a98c-d14b653e777f)
-
-  f. You can also see a trend where VAA approaches 0 as the ball is thrown higher in the zone, which makes a lot of sense
-
-
-  The league has responded to this trend as the VAA has been steadily increasing as well as fastball height increasing
+#### The following table shows that the average VAA on 4-Seam Fastballs is currently -4.78 degrees
 
 ![Screenshot 2023-08-29 235028](https://github.com/josephmontes/VAA/assets/125607783/7c540b71-5599-49a5-9fae-60d39f39eafc)
 
+   - the column 'inches' refers to inches from the top of the zone
+       - this shows that 4-Seam Fastballs are being thrown closer and closer to the top of the zone by season
+   - -4.78 degrees is the average value by usage
+        - This value does not represent an above or below average VAA by effectiveness
 
-These fastballs account for about 40% of all fastballs currently
+#### In the previous graphs, the VAA value where wOBA, xwOBA, Whiff%, Barrel per swing cross their league average thresholds is consistently around -4.5 degrees
+   - The value -4.5 degrees will be used to differentiate above average vs. below average effectiveness for VAA on 4-Seam Fastballs
+   - The table below shows the average wOBA on 4-Seam Fastballs above -4.5 degrees in VAA vs. below
+        - It also shows their frequency as a %
+     
+![Screenshot 2023-09-01 143713](https://github.com/josephmontes/VAA/assets/125607783/1725ff77-8eb9-4d14-a194-97914f342d37)
 
+ - The next table shows that 4-Seam Fastballs thrown at -4.5 degrees or higher have been consistently increasing year by year
+   
 ![Screenshot 2023-08-30 000338](https://github.com/josephmontes/VAA/assets/125607783/15dab2d1-5baf-40c5-9976-233d71bfbaa6)
+
+
+#### But are all 4-Seam Fastballs thrown at this -4.5 angle or greater the same? 
+   - Following the trend in the third table up, that showed fastball height increasing, I investigated how wOBA changes as VAA and fastball height change
+     
+![Screenshot 2023-08-29 235356](https://github.com/josephmontes/VAA/assets/125607783/779aa2a1-8b24-447d-a98c-d14b653e777f)
+
+   - If you follow the -4.5 value on the x-axis and follow it up as fastball height increases, you can see the color becoming more blue representing a lower wOBA as the ball is higher in the zone
+   - Conclusion: 4-Seam Fastballs thrown with the same VAA can be more effective closer it gets to the top of the strike zone
+   - This graph also shows that VAA decreases as pitch height increases
+   - To make this correlation clearer, I isolated all 4-Seam Fastballs greater than or equal to -4.5 degrees VAA
+        - then, I isolated the top of the strikezone from 7.5 inches below to 4 inches above and averaged the wOBA for fastballs in there compared to outside
+          
+![Screenshot 2023-09-01 144311](https://github.com/josephmontes/VAA/assets/125607783/279b78cd-e6e9-457f-9229-ecce7135b9f9)
+
+- I feel like this really highlights that not all -4.5 degree 4-Seam Fastballs are the same and emphasizes the important of getting it in the top parts of the zone
+- It is encouraging that 65% of fastballs thrown at -4.5 degrees or higher are already in that zone, but that leaves some room for improvement
+
 
 # 2. PLAYERS
 
@@ -177,7 +202,10 @@ Greene, Rodriguez, Waldichuk, Allen, Kopech, Sears, Strider
 
 Kikuchi, Berrios, Castillo, Peralta, Nola, Kopech, Detmers,
 
-I would heavily consider these guys progression candidates
+I would heavily consider these guys progression candidates but it is not that simple,
+there is something that needs to be said about being a fastball guy vs. having a good fastball
+castllo, peralta, nola, heaney, bauer have other pitches too
+guys like greene, strider, javier that are looked at as primarily fastball guys - when they throw the bad version the fastball it gets crushed
 
 - I analyzed all the pitchers who have thrown it at least 60% of the time
      - of these pitchers, only _ of them had a wOBA higher than an average fastball
