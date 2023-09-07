@@ -356,6 +356,60 @@
 
 ---------------------------------------------------------------------
 
+#### What batters hit this more effective 4-Seam Fastball better than average?
+- My process for hitters is going to be a little different
+- I will group the hitters by season and see who has the biggest difference in wOBA between the more effective 4-Seam Fastball and less effective one
+- Remember the table above that says .287 vs. .344
+  - that is a .065 difference in wOBA
+  - I will be looking at the hitters who had seasons with greater than .025 difference (above average)
+  - and below .105 difference (below average)
+
+    
+|                   |                   |                   |                   |                   |
+|-------------------|-------------------|-------------------|-------------------|-------------------|
+| Manny Machado     | Yoán Moncada      | Jose Altuve       | Mark Canha       | Carlos Santana    |
+| Jake Cronenworth  | Ronald Acuña Jr.  | Ke'Bryan Hayes    | Trea Turner       | Aaron Hicks       |
+| Owen Miller       | Brandon Drury     | Josh Donaldson    | Kyle Schwarber    | Miguel Rojas      |
+| DJ LeMahieu       | Max Muncy         | Myles Straw       | Whit Merrifield   | Brandon Nimmo    |
+| Sean Murphy       | J.P. Crawford     | Teoscar Hernández | Jeff McNeil       | Rhys Hoskins      |
+| Dansby Swanson    | Josh Rojas        | Seth Brown        | Bo Bichette       | Brendan Donovan   |
+| Riley Greene      | Franmil Reyes     | Brett Gardner     | Vladimir Guerrero Jr. | Adley Rutschman |
+| Lourdes Gurriel Jr. | Jared Walsh    | Corey Seager      | Jurickson Profar  | Steven Kwan       |
+| Isiah Kiner-Falefa | Bryan Reynolds  | Jazz Chisholm Jr. | Omar Narváez     | Gio Urshela       |
+| Mike Yastrzemski  | Cody Bellinger    | Eric Hosmer       | Christian Yelich  | David Fletcher    |
+| Luis Arraez       | Josh Naylor       | Elvis Andrus      | Gleyber Torres    | Michael Conforto  |
+| Andrés Giménez    | Luis Urías        |
+
+![Screenshot 2023-09-07 142614](https://github.com/josephmontes/VAA/assets/125607783/66ef0412-b700-409e-a754-b447202096ca)
+
+##### NOTES
+- Luis Arraez, Steven Kwan, DJ LeMahieu, Myles Straw, Jake Cronenworth, Josh Rojas, Isiah Kiner-Falefa, Bo Bichette, Vlad Guerrero
+
+
+|                   |                   |                   |                   |                   |                   |
+|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+| Bobby Witt Jr.    | Charlie Blackmon  | Ha-Seong Kim      | Adam Frazier      | C.J. Cron         | Michael A. Taylor |
+| David Peralta     | Alex Verdugo      | Francisco Lindor  | Randal Grichuk    | Adam Duvall       | Alejandro Kirk    |
+| Lane Thomas       | Jed Lowrie        | Ryan Mountcastle  | Geraldo Perdomo   | Nathaniel Lowe    | Tommy Edman       |
+| Jonathan Schoop   | Ryan McMahon      | Nelson Cruz       | Joey Gallo        | José Abreu        | Robbie Grossman   |
+| Austin Riley      | Andrew Vaughn     | Nick Gordon       | Taylor Ward       | Willy Adames      | Jonathan Villar   |
+| J.T. Realmuto     | Ian Happ          | Christian Vázquez | MJ Melendez       | Taylor Walls      | Nick Solak        |
+| Kyle Tucker       | César Hernández   | Brendan Rodgers   | Christian Walker  | Josh Harrison     | Kyle Seager       |
+| Trevor Story      | Chris Taylor      | Akil Baddoo       | Miguel Sanó       | Willson Contreras | Joey Wendle       |
+| Jean Segura       | Brandon Lowe      | Martín Maldonado  | Mookie Betts      | Ji Man Choi       | Bryce Harper      |
+| Carlos Correa     | Joey Votto        | Gary Sánchez      | Manuel Margot     | Pavin Smith       | Jorge Soler       |
+| Pete Alonso       | Mike Trout        | Ozzie Albies      | Corey Dickerson   | Freddie Freeman   | Eduardo Escobar   |
+| Bobby Dalbec      | Tyler O'Neill     | Brandon Belt      | Brandon Marsh     | Tim Anderson      | Tyler Naquin      |
+| Nick Castellanos  |
+
+|                   |                   |                   |                   |                   |                   |
+|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
+| Bryson Stott      | Rafael Devers      | Yordan Alvarez    | Yuli Gurriel      | Miguel Cabrera    | Josh Bell         |
+| Marcus Semien     | Will Smith         | Kolten Wong       | Adolis García     | Anthony Santander | Hunter Renfroe    |
+| Jorge Polanco     | Ty France          | Matt Chapman      | Amed Rosario      | Xander Bogaerts   | Juan Soto         |
+| Andrew Benintendi | Eugenio Suárez     | Matt Olson        | Randy Arozarena   | José Ramírez      | Justin Turner     |
+| Aaron Judge       | Paul Goldschmidt   |
+
 what hitters are hitting this with success?
 
 It seems that more contact guys are able to handle this trend. Guys like Josh Rojas, Jeff McNeil, DJ LeMahieu, are best built to counteract this 4-Seam Fastball trend.
