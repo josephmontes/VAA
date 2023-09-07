@@ -40,7 +40,7 @@
 
 ####  In all of these graphs, the VAA value where wOBA, xwOBA, Whiff%, Barrel per swing cross their league average thresholds is consistently around -4.5 degrees
 - The value -4.5 degrees will be used to differentiate above average vs. below average effectiveness for VAA on 4-Seam Fastballs
-   - The table below supports this value by showing the average wOBA on 4-Seam Fastballs above -4.5 degrees in VAA vs. below
+   - The table below supports this by displaying the average wOBA on 4-Seam Fastballs above -4.5 degrees in VAA (1) vs. below (0)
         - It also shows their frequency as a %
      
 ![Screenshot 2023-09-01 143713](https://github.com/josephmontes/VAA/assets/125607783/1725ff77-8eb9-4d14-a194-97914f342d37)
@@ -48,30 +48,20 @@
 - The table below shows that the league average VAA for 4-Seam Fastball is strongly trending towards this -4.5 degrees value
    - the column 'inches' refers to inches from the top of the zone
    - this also shows that 4-Seam Fastballs are being thrown closer to the top of the zone each season
-   - and it there's a significant jump after the 2021 season
+   - there's a notable jump after the 2021 season
 
 ![Screenshot 2023-08-29 235028](https://github.com/josephmontes/VAA/assets/125607783/7c540b71-5599-49a5-9fae-60d39f39eafc)
 
    
-
-
-
-   
-
-   
-
-
-
-
 #### But are all 4-Seam Fastballs thrown at this -4.5 angle or greater the same? 
    - Following the trend in the third table up, that showed fastball height increasing, I investigated how wOBA changes as VAA and fastball height change
+   - The midpoint is set at .305 wOBA value from the table above
 
 ![Screenshot 2023-09-05 165702](https://github.com/josephmontes/VAA/assets/125607783/bb108dac-bc73-4f47-9399-82613ec9608c)
 
 - This graph shows that the 5 inches below and 5.5 inches above the strikezone is the most effective place for fastballs
-- the midpoint is set at .305 value from the average wOBA value for -4.5 degree 4-Seam Fastballs from the table above
 
-the table below shows this to be particularly true
+#### the table below shows the wOBA for 4-Seam Fastballs in that -5 to 5.5 inch zone (1) vs. outside of that zone (0)
 
 ![Screenshot 2023-09-05 170211](https://github.com/josephmontes/VAA/assets/125607783/3a8e5bdc-e03b-4a7a-92e6-a13b4787ba7a)
      
@@ -149,15 +139,15 @@ the table below shows this to be particularly true
 - Of the 18 pitchers, only 3 pitchers ended up throwing their 4-Seam Fastball ineffectively in a future qualifying season (Pagan, Doolittle, Kopech)
   
 ##### PLAYER SPLOTLIGHTS
-  - Sean Doolittle:
-    - threw 100 Fastballs following the 2019 season
-    - in his age 34 season in 2021 he threw 702, according to the table below his effective 4-Seamer rate dropped over 6%
-    - the ones he threw that qualified as effective were in align with the average wOBA 285 with the inneffecitve ones were hit at 372
   - Emilio Pagan
     - His 4-Seam Fastball was slightly above average at .361 in 2021, his good fastball percentage also dropped over 6%
     - has not thrown a qualified amount of fastballs since, but in 2022 and in 2023 he has been
       - also, it is worth noting that his good fastball rate increased back over 30% in the last 2 seasons too
-   - Michael Kopech
+  - Sean Doolittle:
+    - threw 100 Fastballs following the 2019 season
+    - in his age 34 season in 2021 he threw 702, according to the table below his effective 4-Seamer rate dropped over 6%
+    - the ones he threw that qualified as effective were in align with the average wOBA 285 with the inneffecitve ones were hit at 372
+  - Michael Kopech
      - I want to highlight the fastball height for Michael Kopech in 2021 and 2022 when it was effective vs. 2023 when it has been ineffective
     
      - As you can see, it is being thrown slightly out of the zone now which correlates with his large increase in BB% this year
@@ -222,8 +212,8 @@ the table below shows this to be particularly true
      - expect that to progress and you got yourself a dominant 4-Seam Fastball pitcher
 
 
-#### What 4-Seam pitchers are hardly ever throwing this type of 4-Seam Fastball?
-- List of guys throwing it less than 7% of the time
+#### Who is not throwing this pitch?
+- List of guys throwing it at a rate less than 7%
 - Split by those throwing it effectively (31 times) and ineffectively (46 times)
    
 - List of guys throwing the bad fastball badly
@@ -237,7 +227,7 @@ the table below shows this to be particularly true
 | 2019      | Peter Lambert         | 0.420 | 0.700**         | 1%   |
 | 2019      | Cole Hamels           | 0.415 | NA              | 6%   |
 | 2019      | Michael Wacha         | 0.415 | 0.318*          | 2%   |
-| 2019      | Joe Musgrove          | 0.407 | 0.422*           | 0%   |
+| 2019      | Joe Musgrove          | 0.407 | 0.422*          | 0%   |
 | 2019      | Andrew Cashner        | 0.384 | NA              | 4%   |
 | 2019      | Kyle Freeland         | 0.382 | 0.366*          | 7%   |
 | 2019      | Jason Vargas          | 0.380 | NA              | 7%   |
@@ -289,15 +279,10 @@ the table below shows this to be particularly true
   - Of the 20 pitchers, only 9 have had qualifying seasons afterwards where they threw it effectively: Michael Wacha, Max Fried, Justin Verlander, Antonio Senzatela, Joe Musgrove, Brad Keller, Ross Stripling, Justin Steele, Tyler Wells
     - Of these 9 pitchers, 2 ended up regressing in a qualifying season after: Antonio Senzatela and Michael Wacha
     - Of the remaining 7 pitchers, 2 do not qualify for 2023 but showed regression in their 200+ 4-Seamers this season: Brad Keller and Ross Stripling
-    - The remaining 4 pitchers: Justin Verlander, Joe Musgrove, Justin Steele, Tyler Wells 
+    - The remaining 5 pitchers: Max Fried, Justin Verlander, Joe Musgrove, Justin Steele, Tyler Wells 
   
 
-###### PLAYER SPLOTLIGHT
-- Justin Steele
-  - matter of getting the fastball tucked into the corner
-  - a slight bit higher than 2022
-  - works off slider
- 
+###### PLAYER SPOTLIGHT
 - 2022 CY Young Winner Justin Verlander
   - got his fastball much higher in 2022 than in 2019
   - works off slider
@@ -358,6 +343,16 @@ the table below shows this to be particularly true
   - This leaves: Giovanny Gallegos, Max Fried, Justin Verlander, Felix Bautista
   - John Means has not thrown more than 25 Fastballs in a season since
 
+###### PLAYER SPOTLIGHT
+-Clayton Kershaw
+   - After regressing, he started throwing the more effective version of the 4-Seamer more
+   - It is his secondary or tertiary pitch anyways
+   - I have mentioned before how some guys can just locate and use their fastball to play off their other pitches more than fastball domination like the guys in the other list
+
+- Justin Steele
+  - matter of getting the fastball tucked into the corner
+  - a slight bit higher than 2022
+  - works off slider
 
 ---------------------------------------------------------------------
 
