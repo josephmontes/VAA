@@ -356,13 +356,21 @@
 
 ---------------------------------------------------------------------
 
-#### What batters hit this more effective 4-Seam Fastball better than average?
-- My process for hitters is going to be a little different
-- I will group the hitters by season and see who has the biggest difference in wOBA between the more effective 4-Seam Fastball and less effective one
-- Remember the table above that says .287 vs. .344
-  - that is a .065 difference in wOBA
-  - I will be looking at the hitters who had seasons with greater than .025 difference (above average)
-  - and below .105 difference (below average)
+#### The story is different for batters
+- Batters will appear against every pitch type which dilliudes the necessity to crush 4-Seam Fastballs
+  - Whereas pitchers that throw 4-Seam Fastballs are going to need it more since they do not throw every pitch type
+- Also, it is more important to hit 'ineffective' type of 4-Seam Fastballs than the more effective ones
+  - batters will see the ineffective one's a lot more frequently
+     - 30% of fastballs are -4.5 degree or higher
+     - of those, 56% are in this range which is about 17% of overall fastballs
+- Therefore, for batters, I just want to understand what type of hitters are successful vs. this pitch, since it is trending
+  - to do this, I looked at every player's wOBA against 4-Seam Fastballs in 2 categories
+  - 1, vaa >= -4.5 and within the -5 to 5.5 inch zone and 2, any other 4-Seam Fastball
+  - Similar to this table shown before
+  - In this table the difference between the wOBA values is .065
+  - I will go to .025 to say a batter hits it better than average
+  - I will go to .105 to say a better hits it worse than average
+- First is the batter seasons who hit it above average, d_wOBA >= -0.025
  
 | game_year | player_name         | wOBA  | g_wOBA | b_wOBA | d_wOBA  |
 |-----------|---------------------|-------|--------|--------|---------|
@@ -458,7 +466,14 @@
 | 2022      | Justin Turner       | 0.338 | 0.320  | 0.345  | -0.025   |
 | 2023      | Bryson Stott        | 0.347 | 0.519  | 0.316  | 0.204  |
 
-
+##### NOTES
+- All the quinnessential contact hitters
+  - Arraez, Cronenworth, LeMahieu, Josh Rojas, Urshela, Donovan, Swanson, Merrifield, David Fletcher, Andrus, Altuve, IKF, Kwan, France, McNeil, Straw, Bryan Reynolds, Brett Gardner
+- Max Muncy, Kyle Schwarber
+- lower K rate supported by lower whiff rate
+- higher BB rate
+  - the whole idea of this analysis is that VAA on 4-Seam Fastballs make them harder to hit because they arent breaking as you would expect
+  - this implies that you have to see the ball better and a higher walk rate insinuates that these guys are seeing the ball better 
 
 
 | game_year | player_name       | wOBA  | g_wOBA | b_wOBA | d_wOBA |
@@ -585,14 +600,14 @@
 
 | game_year | player_name        | wOBA   | g_wOBA | b_wOBA | d_wOBA |
 |-----------|--------------------|--------|--------|--------|--------|
-| 2021      | Alvarez, Yordan    | 0.388  | 0.484  | 0.372  | 0.112  |
-| 2022      | Alvarez, Yordan    | 0.499  | 0.342  | 0.525  | -0.183 |
+| 2021      | Alvarez, Yordan    | 0.388  | 0.484  | 0.372  | 0.112  | 
+| 2022      | Alvarez, Yordan    | 0.499  | 0.342  | 0.525  | -0.183 | 
 
-| 2021      | Gurriel, Yuli      | 0.326  | 0.412  | 0.307  | 0.105  |
-| 2022      | Gurriel, Yuli      | 0.282  | 0.111  | 0.323  | -0.212 |
+| 2021      | Gurriel, Yuli      | 0.326  | 0.412  | 0.307  | 0.105  | 
+| 2022      | Gurriel, Yuli      | 0.282  | 0.111  | 0.323  | -0.212 | 
 
-| 2021      | Semien, Marcus     | 0.429  | 0.49   | 0.417  | 0.073  |
-| 2022      | Semien, Marcus     | 0.335  | 0.191  | 0.368  | -0.178 |
+| 2021      | Semien, Marcus     | 0.429  | 0.49   | 0.417  | 0.073  | 
+| 2022      | Semien, Marcus     | 0.335  | 0.191  | 0.368  | -0.178 | 
 
 | 2021      | Smith, Will        | 0.445  | 0.495  | 0.437  | 0.058  |
 | 2022      | Smith, Will        | 0.384  | 0.224  | 0.43   | -0.206 |
