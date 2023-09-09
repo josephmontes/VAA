@@ -71,7 +71,7 @@
 - It is encouraging that 65% of fastballs thrown at -4.5 degrees or higher are already in that zone, but that leaves some room for improvement
 
 
-# 2. PLAYERS
+# 2. PITCHERS
 
 #### So who is throwing this pitch?
 - Below is the list of pitcher seasons where they threw this more effective type of 4-Seam Fastball at least 30% of the time they threw a 4-Seam Fastball from 2019- August 2023
@@ -356,14 +356,17 @@
 
 ---------------------------------------------------------------------
 
+# 3. Batters 
+
 #### The story is different for batters
-- Batters will appear against every pitch type which dilliudes the necessity to crush 4-Seam Fastballs
+- Batters will appear against every pitch type which dilludes the necessity to crush this more effective type of 4-Seam Fastballs
   - Whereas pitchers that throw 4-Seam Fastballs are going to need it more since they do not throw every pitch type
-- Also, it is more important to hit 'ineffective' type of 4-Seam Fastballs than the more effective ones
+- Also, for overall offensive production, it is more important to hit the 'ineffective' type of 4-Seam Fastballs than the more effective ones
   - batters will see the ineffective one's a lot more frequently
      - 30% of fastballs are -4.5 degree or higher
      - of those, 56% are in this range which is about 17% of overall fastballs
 - Therefore, for batters, I just want to understand what type of hitters are successful vs. this pitch, since it is trending
+- However, I will not look at it as who has the highest wOBA vs. this type of Fastball, instead, I will look at who has the biggest difference between the way they wan want a list of good player seasons and bad batter seasons 
   - to do this, I looked at every player's wOBA against 4-Seam Fastballs in 2 categories
   - 1, vaa >= -4.5 and within the -5 to 5.5 inch zone and 2, any other 4-Seam Fastball
   - Similar to this table shown before
@@ -413,10 +416,10 @@
 | 2021      | Michael Conforto    | 0.367 | 0.348  | 0.371  | -0.023   |
 | 2021      | Aaron Judge         | 0.465 | 0.445  | 0.469  | -0.024   |
 | 2021      | Bryan Reynolds      | 0.452 | 0.431  | 0.454  | -0.024   |
-| 2022      | Manny Machado       | 0.311 | 0.456  | 0.270  | 0.186  |
+| 2022      | Manny Machado (2x)  | 0.311 | 0.456  | 0.270  | 0.186  |
 | 2022      | Rafael Devers       | 0.366 | 0.505  | 0.320  | 0.185  |
 | 2022      | Mark Canha          | 0.345 | 0.450  | 0.319  | 0.131  |
-| 2022      | Carlos Santana      | 0.364 | 0.457  | 0.333  | 0.123  |
+| 2022      | Carlos Santana (2x) | 0.364 | 0.457  | 0.333  | 0.123  |
 | 2022      | Ronald Acuña Jr.    | 0.338 | 0.433  | 0.321  | 0.112  |
 | 2022      | Miguel Cabrera      | 0.302 | 0.386  | 0.279  | 0.107  |
 | 2022      | Ke'Bryan Hayes      | 0.329 | 0.418  | 0.314  | 0.104  |
@@ -424,10 +427,10 @@
 | 2022      | Aaron Hicks         | 0.327 | 0.408  | 0.305  | 0.103  |
 | 2022      | Owen Miller         | 0.299 | 0.379  | 0.280  | 0.100  |
 | 2022      | Brandon Drury       | 0.372 | 0.452  | 0.353  | 0.099  |
-| 2022      | Josh Donaldson      | 0.335 | 0.408  | 0.310  | 0.098  |
+| 2022      | Josh Donaldson (2x) | 0.335 | 0.408  | 0.310  | 0.098  |
 | 2022      | Trea Turner         | 0.413 | 0.495  | 0.401  | 0.095  |
 | 2022      | Kyle Schwarber      | 0.392 | 0.454  | 0.379  | 0.075  |
-| 2022      | DJ LeMahieu         | 0.393 | 0.449  | 0.379  | 0.069  |
+| 2022      | DJ LeMahieu (2x)    | 0.393 | 0.449  | 0.379  | 0.069  |
 | 2022      | Adolis García       | 0.325 | 0.370  | 0.308  | 0.062  |
 | 2022      | Myles Straw         | 0.293 | 0.341  | 0.281  | 0.061  |
 | 2022      | Max Muncy           | 0.359 | 0.407  | 0.349  | 0.058  |
@@ -450,14 +453,14 @@
 | 2022      | Ty France           | 0.369 | 0.374  | 0.368  | 0.006  |
 | 2022      | Matt Chapman        | 0.282 | 0.285  | 0.281  | 0.004  |
 | 2022      | Steven Kwan         | 0.389 | 0.392  | 0.389  | 0.004  |
-| 2022      | Jose Altuve         | 0.459 | 0.462  | 0.459  | 0.003  |
-| 2022      | Isiah Kiner-Falefa  | 0.346 | 0.344  | 0.346  | -0.002   |
-| 2022      | Bryan Reynolds      | 0.424 | 0.422  | 0.425  | -0.003   |
+| 2022      | Jose Altuve (2x)    | 0.459 | 0.462  | 0.459  | 0.003  |
+| 2022      | Isiah Kiner-Falefa (2x)| 0.346 | 0.344  | 0.346  | -0.002   |
+| 2022      | Bryan Reynolds (2x) | 0.424 | 0.422  | 0.425  | -0.003   |
 | 2022      | Juan Soto           | 0.485 | 0.480  | 0.486  | -0.006   |
-| 2022      | Josh Rojas          | 0.331 | 0.323  | 0.333  | -0.010   |
+| 2022      | Josh Rojas (2x)     | 0.331 | 0.323  | 0.333  | -0.010   |
 | 2022      | Gio Urshela         | 0.324 | 0.312  | 0.326  | -0.014   |
 | 2022      | Eugenio Suárez      | 0.349 | 0.336  | 0.352  | -0.015   |
-| 2022      | Lourdes Gurriel Jr. | 0.370 | 0.354  | 0.374  | -0.019   |
+| 2022      | Lourdes Gurriel Jr. (2x)| 0.370 | 0.354  | 0.374  | -0.019   |
 | 2022      | Luis Arraez         | 0.444 | 0.429  | 0.448  | -0.019   |
 | 2022      | Josh Naylor         | 0.344 | 0.327  | 0.348  | -0.021   |
 | 2022      | Randy Arozarena     | 0.415 | 0.398  | 0.420  | -0.022   |
@@ -467,13 +470,13 @@
 | 2023      | Bryson Stott        | 0.347 | 0.519  | 0.316  | 0.204  |
 
 ##### NOTES
-- All the quinnessential contact hitters
-  - Arraez, Cronenworth, LeMahieu, Josh Rojas, Urshela, Donovan, Swanson, Merrifield, David Fletcher, Andrus, Altuve, IKF, Kwan, France, McNeil, Straw, Bryan Reynolds, Brett Gardner
+- First thing I noticed is that there is a lot of the quintisential contact hitters on this list
+  - Luis Arraez, Steven Kwan, DJ LeMahieu, Jake Cronenworth, Gio Urshela, Isiah Kiner-Falefa, Jeff McNeil, Brendan Donovan, Whit Merrifield, David Fletcher, Myles Straw, Josh Rojas, Elvis Andrus, Bryan Reynolds, Brett Gardner, Dansby Swanson, Jose Altuve, Ty France
 - Max Muncy, Kyle Schwarber
-- lower K rate supported by lower whiff rate
-- higher BB rate
-  - the whole idea of this analysis is that VAA on 4-Seam Fastballs make them harder to hit because they arent breaking as you would expect
-  - this implies that you have to see the ball better and a higher walk rate insinuates that these guys are seeing the ball better 
+  - Fastballs going higher and higher vs. them
+- I would say that these hitters all have a lot of potential because it is easier to hit the other fastball that they are not hitting as well so if they are hitting the harder one to hit harder than the easier one to hit then it is logical that they will eventually just dominate fastball hitting
+- Players on there multiple times: DJ LeMahieu, Jose Altuve, Isiah Kiner-Falefa, Bryan Reynolds, Josh Rojas, Loudres Gurriel Jr. Manny Machado, Carlos Santana, Josh Donaldson 
+- Manny Machado
 
 
 | game_year | player_name       | wOBA  | g_wOBA | b_wOBA | d_wOBA |
@@ -495,7 +498,7 @@
 | 2021      | Ozzie Albies      | 0.388 | 0.179  | 0.428  | -0.249  |
 | 2021      | Trevor Story      | 0.334 | 0.141  | 0.386  | -0.245  |
 | 2021      | Manuel Margot     | 0.358 | 0.172  | 0.415  | -0.243  |
-| 2021      | Joey Peralta      | 0.359 | 0.145  | 0.387  | -0.242  |
+| 2021      | David Peralta      | 0.359 | 0.145  | 0.387  | -0.242  |
 | 2021      | Joey Votto        | 0.473 | 0.288  | 0.526  | -0.238  |
 | 2021      | Pavin Smith       | 0.336 | 0.139  | 0.374  | -0.235  |
 | 2021      | Rafael Devers     | 0.386 | 0.198  | 0.433  | -0.235  |
@@ -555,29 +558,29 @@
 | 2022      | José Ramírez      | 0.374 | 0.213  | 0.428  | -0.215  |
 | 2022      | Yuli Gurriel      | 0.282 | 0.111  | 0.323  | -0.212  |
 | 2022      | Will Smith        | 0.384 | 0.224  | 0.430  | -0.206  |
-| 2022      | Randal Grichuk    | 0.312 | 0.136  | 0.339  | -0.204  |
-| 2022      | Trevor Story      | 0.296 | 0.137  | 0.336  | -0.200  |
+| 2022      | Randal Grichuk (2x)| 0.312 | 0.136  | 0.339  | -0.204  |
+| 2022      | Trevor Story (2x) | 0.296 | 0.137  | 0.336  | -0.200  |
 | 2022      | Amed Rosario      | 0.353 | 0.186  | 0.385  | -0.199  |
-| 2022      | Nathaniel Lowe    | 0.363 | 0.217  | 0.410  | -0.194  |
+| 2022      | Nathaniel Lowe (2x)| 0.363 | 0.217  | 0.410  | -0.194  |
 | 2022      | Taylor Walls      | 0.302 | 0.155  | 0.343  | -0.188  |
 | 2022      | Nick Gordon       | 0.370 | 0.230  | 0.419  | -0.188  |
 | 2022      | Brendan Rodgers   | 0.336 | 0.184  | 0.372  | -0.188  |
 | 2022      | César Hernández   | 0.324 | 0.168  | 0.354  | -0.186  |
-| 2022      | J.T. Realmuto     | 0.456 | 0.310  | 0.494  | -0.184  |
+| 2022      | J.T. Realmuto (2x)| 0.456 | 0.310  | 0.494  | -0.184  |
 | 2022      | Yordan Alvarez    | 0.499 | 0.342  | 0.525  | -0.183  |
 | 2022      | Andrew Benintendi | 0.375 | 0.230  | 0.411  | -0.181  |
 | 2022      | Paul Goldschmidt  | 0.422 | 0.282  | 0.459  | -0.178  |
 | 2022      | Marcus Semien     | 0.335 | 0.191  | 0.368  | -0.178  |
-| 2022      | Kyle Tucker       | 0.378 | 0.229  | 0.406  | -0.177  |
-| 2022      | Ian Happ          | 0.383 | 0.237  | 0.410  | -0.174  |
+| 2022      | Kyle Tucker (2x)  | 0.378 | 0.229  | 0.406  | -0.177  |
+| 2022      | Ian Happ (2x)     | 0.383 | 0.237  | 0.410  | -0.174  |
 | 2022      | MJ Melendez       | 0.336 | 0.189  | 0.362  | -0.174  |
 | 2022      | Austin Riley      | 0.358 | 0.224  | 0.393  | -0.169  |
 | 2022      | Jonathan Schoop   | 0.237 | 0.109  | 0.275  | -0.167  |
 | 2022      | Taylor Ward       | 0.368 | 0.227  | 0.394  | -0.167  |
 | 2022      | Xander Bogaerts   | 0.398 | 0.270  | 0.434  | -0.164  |
-| 2022      | Ryan McMahon      | 0.320 | 0.191  | 0.351  | -0.160  |
+| 2022      | Ryan McMahon (2x) | 0.320 | 0.191  | 0.351  | -0.160  |
 | 2022      | Robbie Grossman   | 0.322 | 0.190  | 0.350  | -0.160  |
-| 2022      | Andrew Vaughn     | 0.372 | 0.236  | 0.395  | -0.159  |
+| 2022      | Andrew Vaughn (2x)| 0.372 | 0.236  | 0.395  | -0.159  |
 | 2022      | Geraldo Perdomo   | 0.260 | 0.136  | 0.290  | -0.154  |
 | 2022      | Bryson Stott      | 0.261 | 0.147  | 0.300  | -0.153  |
 | 2022      | Aaron Judge       | 0.509 | 0.386  | 0.534  | -0.148  |
@@ -585,113 +588,114 @@
 | 2022      | Hunter Renfroe    | 0.392 | 0.277  | 0.425  | -0.147  |
 | 2022      | Lane Thomas       | 0.360 | 0.240  | 0.386  | -0.146  |
 | 2022      | Alex Verdugo      | 0.424 | 0.311  | 0.454  | -0.143  |
-| 2022      | Francisco Lindor  | 0.398 | 0.284  | 0.424  | -0.141  |
-| 2022      | David Peralta     | 0.410 | 0.297  | 0.436  | -0.140  |
+| 2022      | Francisco Lindor (2x)| 0.398 | 0.284  | 0.424  | -0.141  |
+| 2022      | David Peralta (2x)| 0.410 | 0.297  | 0.436  | -0.140  |
 | 2022      | Alejandro Kirk    | 0.424 | 0.308  | 0.445  | -0.138  |
 | 2022      | Ha-Seong Kim      | 0.329 | 0.222  | 0.358  | -0.136  |
 | 2022      | Bobby Witt Jr.    | 0.300 | 0.194  | 0.321  | -0.127  |
-| 2022      | Carlos Correa     | 0.452 | 0.352  | 0.479  | -0.127  |
-| 2023      | Ryan McMahon      | 0.438 | 0.230  | 0.501  | -0.271  |
-| 2023      | Mike Trout        | 0.361 | 0.155  | 0.417  | -0.263  |
-| 2023      | Nathaniel Lowe    | 0.405 | 0.281  | 0.441  | -0.160  |
+| 2022      | Carlos Correa (2x)| 0.452 | 0.352  | 0.479  | -0.127  |
+| 2023      | Ryan McMahon (3x) | 0.438 | 0.230  | 0.501  | -0.271  |
+| 2023      | Mike Trout (2x)   | 0.361 | 0.155  | 0.417  | -0.263  |
+| 2023      | Nathaniel Lowe (3x)| 0.405 | 0.281  | 0.441  | -0.160  |
 | 2023      | Matt Olson        | 0.390 | 0.281  | 0.417  | -0.135  |
 | 2023      | Brandon Nimmo     | 0.385 | 0.288  | 0.417  | -0.130  |
 
+#### NOTES
+- Not as many quintissential power threats as I was hoping for but there is definitely a power-skew to the hitters on this list
+- I did find a hint that attack angle could be a factor
+  - I found that the FB rate for the 2nd list is 27.9% and the first list is 25.6%
+  - Also, I found that the K rate was 19.7% vs. 22.4% supported by a 21.5% vs. 24.4% whiff rate
+  - Also, I found that the BB rate was slightly higher for the first group at 9.2% vs. 8.7%
+- the wOBA for the second group overall is higher than the wOBA for the first group
+  - this shows that the second group of hitters is more contact hitters too
+  - it makes sense that this trend is happening then as it is to counter all the launch angle efforts by the batter
+- lower K rate supported by lower whiff rate
+- higher BB rate
+  - the whole idea of this analysis is that VAA on 4-Seam Fastballs make them harder to hit because they arent breaking as you would expect
+  - this implies that you have to see the ball better and a higher walk rate insinuates that these guys are seeing the ball better
+ - I wish I had attack angle data for batters
+  - also, hand height could be a factor as players who set their hands lower might have a hard time adjusting to this type of fastball
+    
+#### PLAYER SPOTLIGHT
+- I will look at the 26 hitters that were on both lists
+- I will divide them by the ones whos g_wOBA has declined
 
 | game_year | player_name        | wOBA   | g_wOBA | b_wOBA | d_wOBA |
 |-----------|--------------------|--------|--------|--------|--------|
-| 2021      | Alvarez, Yordan    | 0.388  | 0.484  | 0.372  | 0.112  | 
-| 2022      | Alvarez, Yordan    | 0.499  | 0.342  | 0.525  | -0.183 | 
-
-| 2021      | Gurriel, Yuli      | 0.326  | 0.412  | 0.307  | 0.105  | 
-| 2022      | Gurriel, Yuli      | 0.282  | 0.111  | 0.323  | -0.212 | 
-
-| 2021      | Semien, Marcus     | 0.429  | 0.49   | 0.417  | 0.073  | 
-| 2022      | Semien, Marcus     | 0.335  | 0.191  | 0.368  | -0.178 | 
-
-| 2021      | Smith, Will        | 0.445  | 0.495  | 0.437  | 0.058  |
-| 2022      | Smith, Will        | 0.384  | 0.224  | 0.43   | -0.206 |
-
-| 2021      | Renfroe, Hunter    | 0.411  | 0.436  | 0.404  | 0.032  |
-| 2022      | Renfroe, Hunter    | 0.392  | 0.277  | 0.425  | -0.147  |
-
-| 2021      | Rosario, Amed      | 0.391  | 0.387  | 0.392  | -0.005  |
-| 2022      | Rosario, Amed      | 0.353  | 0.186  | 0.385  | -0.199  |
-
-| 2021      | Bogaerts, Xander   | 0.389  | 0.385  | 0.391  | -0.006  |
-| 2022      | Bogaerts, Xander   | 0.398  | 0.27   | 0.434  | -0.164  |
-
-| 2021      | Benintendi, Andrew | 0.348  | 0.339  | 0.35   | -0.011  |
-| 2022      | Benintendi, Andrew | 0.375  | 0.23   | 0.411  | -0.181  |
-
-| 2021      | Ramírez, José      | 0.435  | 0.418  | 0.44   | -0.022  |
-| 2022      | Ramírez, José      | 0.374  | 0.213  | 0.428  | -0.215  |
-
-| 2021      | Judge, Aaron       | 0.465  | 0.445  | 0.469  | -0.024  |
-| 2022      | Judge, Aaron       | 0.509  | 0.386  | 0.534  | -0.148  |
-
-| 2022      | Nimmo, Brandon     | 0.39   | 0.436  | 0.381  | 0.055  |
-| 2023      | Nimmo, Brandon     | 0.385  | 0.288  | 0.417  | -0.13  |
-
-| 2022      | Olson, Matt        | 0.403  | 0.386  | 0.408  | -0.022  |
-| 2023      | Olson, Matt        | 0.39   | 0.281  | 0.417  | -0.135  |
+| 2021      | Yordan Alvarez     | 0.388  | 0.484  | 0.372  | 0.112  | 
+| 2022      | Yordan Alvarez     | 0.499  | 0.342  | 0.525  | -0.183 | 
+| 2021      | Yuli Gurriel       | 0.326  | 0.412  | 0.307  | 0.105  | 
+| 2022      | Yuli Gurriel       | 0.282  | 0.111  | 0.323  | -0.212 | 
+| 2021      | Marcus Semien      | 0.429  | 0.49   | 0.417  | 0.073  | 
+| 2022      | Marcus Semien      | 0.335  | 0.191  | 0.368  | -0.178 | 
+| 2021      | Will Smith         | 0.445  | 0.495  | 0.437  | 0.058  |
+| 2022      | Will Smith         | 0.384  | 0.224  | 0.43   | -0.206 |
+| 2021      | Hunter Renfroe     | 0.411  | 0.436  | 0.404  | 0.032  |
+| 2022      | Hunter Renfroe     | 0.392  | 0.277  | 0.425  | -0.147  |
+| 2021      | Amed Rosario       | 0.391  | 0.387  | 0.392  | -0.005  |
+| 2022      | Amed Rosario       | 0.353  | 0.186  | 0.385  | -0.199  | 
+| 2021      | Xander Bogaerts    | 0.389  | 0.385  | 0.391  | -0.006  |
+| 2022      | Xander Bogaerts    | 0.398  | 0.27   | 0.434  | -0.164  |
+| 2021      | Andrew Benintendi  | 0.348  | 0.339  | 0.35   | -0.011  |
+| 2022      | Andrew Benintendi  | 0.375  | 0.23   | 0.411  | -0.181  |
+| 2021      | José Ramírez       | 0.435  | 0.418  | 0.44   | -0.022  |
+| 2022      | José Ramírez       | 0.374  | 0.213  | 0.428  | -0.215  |
+| 2021      | Aaron Judge        | 0.465  | 0.445  | 0.469  | -0.024  |
+| 2022      | Aaron Judge        | 0.509  | 0.386  | 0.534  | -0.148  |
+| 2022      | Brandon Nimmo      | 0.39   | 0.436  | 0.381  | 0.055  |
+| 2023      | Brandon Nimmo      | 0.385  | 0.288  | 0.417  | -0.13  |
+| 2022      | Matt Olson         | 0.403  | 0.386  | 0.408  | -0.022  |
+| 2023      | Matt Olson         | 0.39   | 0.281  | 0.417  | -0.135  |
 
 #### NOTES
-- Alvarez, Judge, Benintendi, Bogaerts only ones to improve their wOBA the next year
-- Renfroe, Rosario, Semien, Smith, Ramirez regressed to an extent
-- gurriel not relevant
-- olson nimmo tbd
-
-| 2021      | Devers, Rafael     | 0.386  | 0.198  | 0.433  | -0.235 |
-| 2022      | Devers, Rafael     | 0.366  | 0.505  | 0.32   | 0.185  |
-
-| 2021      | Cabrera, Miguel    | 0.34   | 0.19   | 0.37   | -0.18  |
-| 2022      | Cabrera, Miguel    | 0.302  | 0.386  | 0.279  | 0.107  |
-
-| 2021      | Bell, Josh         | 0.401  | 0.247  | 0.437  | -0.189 |
-| 2022      | Bell, Josh         | 0.372  | 0.452  | 0.348  | 0.104  |
-
-| 2021      | García, Adolis     | 0.315  | 0.167  | 0.349  | -0.182 |
-| 2022      | García, Adolis     | 0.325  | 0.37   | 0.308  | 0.062  |
-
-| 2021      | Wong, Kolten       | 0.391  | 0.191  | 0.426  | -0.235 |
-| 2022      | Wong, Kolten       | 0.427  | 0.473  | 0.417  | 0.057  |
-
-| 2021      | Santander, Anthony | 0.356  | 0.24   | 0.384  | -0.144 |
-| 2022      | Santander, Anthony | 0.328  | 0.364  | 0.32   | 0.045  |
-
-| 2021      | Polanco, Jorge     | 0.399  | 0.233  | 0.433  | -0.2   |
-| 2022      | Polanco, Jorge     | 0.383  | 0.407  | 0.377  | 0.03   |
-
-| 2021      | France, Ty         | 0.415  | 0.275  | 0.438  | -0.163 |
-| 2022      | France, Ty         | 0.369  | 0.374  | 0.368  | 0.006  |
-
-| 2021      | Chapman, Matt      | 0.351  | 0.228  | 0.388  | -0.159  |
-| 2022      | Chapman, Matt      | 0.282  | 0.285  | 0.281  | 0.004   |
-
-| 2021      | Soto, Juan         | 0.532  | 0.304  | 0.562  | -0.258  |
-| 2022      | Soto, Juan         | 0.485  | 0.48   | 0.486  | -0.006  |
-
-| 2021      | Suárez, Eugenio    | 0.38   | 0.17   | 0.434  | -0.264  |
-| 2022      | Suárez, Eugenio    | 0.349  | 0.336  | 0.352  | -0.015  |
-
-| 2021      | Arozarena, Randy   | 0.426  | 0.214  | 0.475  | -0.261  |
-| 2022      | Arozarena, Randy   | 0.415  | 0.398  | 0.42   | -0.022  |
-
-| 2021      | Turner, Justin     | 0.378  | 0.198  | 0.419  | -0.222  |
-| 2022      | Turner, Justin     | 0.338  | 0.32   | 0.345  | -0.025  |
-
-| 2022      | Stott, Bryson      | 0.261  | 0.147  | 0.3    | -0.153  |
-| 2023      | Stott, Bryson      | 0.347  | 0.519  | 0.316  | 0.204   |
+- There are 12 players here 
+  - 3 players are currently in a different stratosphere offensively than every other hitter: Aaron Judge, Yordan Alvarez, Matt Olson
+  - Of the other 9 hitters, I see a lot of guys that are in the middle of regressions in regards to how they hit the 4-Seam Fastball
+    - Benintendi and Bogaerts are the only ones whose wOBA increased despite g_wOBA decreasing
+    - This was guided by crushing the bad fastballs at a rate over .400
+    - and they are currently regressing in 2023!
+      
+| game_year | player_name        | wOBA   | g_wOBA | b_wOBA | d_wOBA |
+|-----------|--------------------|--------|--------|--------|--------|
+| 2021      | Rafael Devers      | 0.386  | 0.198  | 0.433  | -0.235 |
+| 2022      | Rafael Devers      | 0.366  | 0.505  | 0.32   | 0.185  |
+| 2021      | Miguel Cabrera     | 0.34   | 0.19   | 0.37   | -0.18  |
+| 2022      | Miguel Cabrera     | 0.302  | 0.386  | 0.279  | 0.107  |
+| 2021      | Josh Bell          | 0.401  | 0.247  | 0.437  | -0.189 |
+| 2022      | Josh Bell          | 0.372  | 0.452  | 0.348  | 0.104  |
+| 2021      | Adolis García      | 0.315  | 0.167  | 0.349  | -0.182 |
+| 2022      | Adolis García      | 0.325  | 0.37   | 0.308  | 0.062  |
+| 2021      | Kolten Wong        | 0.391  | 0.191  | 0.426  | -0.235 |
+| 2022      | Kolten Wong        | 0.427  | 0.473  | 0.417  | 0.057  |
+| 2021      | Anthony Santander  | 0.356  | 0.24   | 0.384  | -0.144 |
+| 2022      | Anthony Santander  | 0.328  | 0.364  | 0.32   | 0.045  |
+| 2021      | Jorge Polanco      | 0.399  | 0.233  | 0.433  | -0.2   |
+| 2022      | Jorge Polanco      | 0.383  | 0.407  | 0.377  | 0.03   |
+| 2021      | Ty France          | 0.415  | 0.275  | 0.438  | -0.163 |
+| 2022      | Ty France          | 0.369  | 0.374  | 0.368  | 0.006  |
+| 2021      | Matt Chapman       | 0.351  | 0.228  | 0.388  | -0.159 |
+| 2022      | Matt Chapman       | 0.282  | 0.285  | 0.281  | 0.004  |
+| 2021      | Juan Soto          | 0.532  | 0.304  | 0.562  | -0.258 |
+| 2022      | Juan Soto          | 0.485  | 0.48   | 0.486  | -0.006 |
+| 2021      | Eugenio Suárez     | 0.38   | 0.17   | 0.434  | -0.264 |
+| 2022      | Eugenio Suárez     | 0.349  | 0.336  | 0.352  | -0.015 |
+| 2021      | Randy Arozarena    | 0.426  | 0.214  | 0.475  | -0.261 |
+| 2022      | Randy Arozarena    | 0.415  | 0.398  | 0.42   | -0.022 |
+| 2021      | Justin Turner      | 0.378  | 0.198  | 0.419  | -0.222 |
+| 2022      | Justin Turner      | 0.338  | 0.32   | 0.345  | -0.025 |
+| 2022      | Bryson Stott       | 0.261  | 0.147  | 0.3    | -0.153 |
+| 2023      | Bryson Stott       | 0.347  | 0.519  | 0.316  | 0.204  |
 
 
 #### NOTES
-- Suarez might have a break out coming, Turner? France?
-- Arozarena is putting it all together right now
-- Chapman is at a lost
-- Stott capped by his ability to hit bad fastballs
-- Santander, Garcia, Chapman, Cabrera, Stott capped by their inability to crush bad fastballs
-- France, Devers, Randy, Polanco, Suarez, Wong, Bell, Turner, Soto
+- Despite every player's overall wOBA on 4-Seam Fastballs went down from year to year besides Garcia and Wong
+  - I see a lot better Fastball hitters on this list in 2023
+- Garcia, Cabrera, Stott capped by their inability to crush bad fastballs
+  - 
+- Everyone else should be able to find success based on the fact that theyve displayed an ability to hit both types of fastballs at an above average rate
+  - Everyone is besides Justin Turner and Matt Chapman
+  - They both are getting unlucky according to xwOBA so I believe in their turnaround 
+- France, Devers, Randy, Polanco, Suarez, Wong, Bell, Turner, Soto, Santander, Chapman
 
     
 |                   |                   |                   |                   |                   |
