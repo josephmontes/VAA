@@ -88,7 +88,7 @@
 
 | Season | Player Name     | wOBA  | Next wOBA | Rate |
 |-----------|-----------------|-------|-----------|------|
-| 2019      | Emilio Pagán    | 0.247 | 0.361*        | 33%  |
+| 2019      | Emilio Pagán    | 0.247 | 0.360*        | 33%  |
 | 2019      | Trevor May      | 0.248 | 0.301*        | 31%  |
 | 2019      | Gerrit Cole     | 0.264 | 0.319         | 34%  |
 | 2019      | Jacob deGrom    | 0.302 | 0.224*        | 33%  |
@@ -143,10 +143,10 @@
   
 ##### PLAYER SPLOTLIGHTS
   - Emilio Pagan
-    - His 4-Seam Fastball was just slightly above average at .361 wOBA against in the 2021 season
-      - His 'good' 4-Seam Fastball rate also dropped below the 30% threshold, down over 6%, that season
-    - He has not thrown a qualified amount of fastballs since 2021, but in 2022 and in 2023 his 4-Seam Fastball has been very effective
-      - His 'good' 4-Seam Fastball rate increased back over 30% in the 2022 and 2023 seasons too
+    - In the season when his 4-Seam Fastball was ineffective, its wOBA value was just slightly above average at .360
+      - In that season, his 'good' 4-Seam Fastball rate dropped below the 30% threshold, from 33% to 27%
+    - He has not thrown a qualified amount of 4-Seam Fastballs since 2021, but in 2022 and in 2023 his 4-Seam Fastball has progressed and been more effective
+      - His 'good' 4-Seam Fastball rate increased back to 30% in the 2022 and 2023 seasons too
         
   - Sean Doolittle:
     - Only threw 100 4-Seam Fastballs in 2020, following the 2019 season
