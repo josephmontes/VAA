@@ -77,7 +77,7 @@
 - 4-Seam Fastballs are being thrown less in general, but 4-Seam Fastballs with a -4.5° VAA or flatter are being thrown more
 - Many offensive statistics support the fact that this flatter type of 4-Seam Fastball is considerably more favorable for pitchers
   - More specifically, when it is thrown anywhere within about 5 inches of the top of the batter's strikezone
-- Due to the evidence supporting the pitch's current effectiveness, this trend is likely not going to go away until batters show an increased ability to counter it in future seasons
+- Due to the evidence supporting the pitch's current effectiveness, this trend is likely not going to stop until batters show an increased ability to counter it in future seasons
 
 # 2. PITCHERS
 
@@ -327,18 +327,43 @@
   
 
 ###### PLAYER SPOTLIGHT
-- 2022 CY Young Winner Justin Verlander
-  - Even though he does not get the optimal VAA, in 2022 the location of his 4-Seam Fastball was more optimal than in 2019
-  - Additionally, his 4-Seam really works off his breaking stuff
-    - This is a common theme for pitchers that get by with this less 'optimal' VAA on their 4-Seam Fastball, they use it more as a complimentary pitch to their better pitches whereas the other pitchers were more 4-Seam Fastball dominant type of pitchers
-  - Despite the top tier excellence in 2022 on his 4-Seam Fastball, it is getting hit a bit harder in 2023
-    
 - 2023 CY Young Candidate Blake Snell
-  - His 4-Seam Fastball is not his best pitch, or his second best pitch either
-  - He is throwing his 4-Seam Fastball less than he ever has in 2023
-  - xwOBA on his 4-Seam Fastball right now according to Baseball Savant is .408
+  - His 4-Seam Fastball is not his best pitch, or his second best pitch, but it has been a plus pitch for him in 2019, 2021 and 2022
+    - Year after year he throws it at about 95 mph
+  - It works in the middle parts of the plate because of the deception Snell creates by tunneling it with his breaking stuff
+  - In 2023, he is throwing his 4-Seam Fastball under 50% for the first time since his Cy Young season in 2018 (according to Baseball Savant)
+    - His Curveball, Slider and Changeup are legitimate plus pitches in every aspect, and throwing them more has really worked for him in 2023
+    - On the other hand, batters have a 0.375 wOBA against his 4-Seam Fastball in 2023 with a 0.409 xwOBA
+      #### 2022
+      ![Screenshot 2023-09-12 013836](https://github.com/josephmontes/VAA/assets/125607783/d1962e84-5a54-4ef7-a3b9-4b1646135191)
+      #### 2023
+      ![Screenshot 2023-09-12 013843](https://github.com/josephmontes/VAA/assets/125607783/122503d6-f55d-4668-af1b-bdbb88279878)
+      - Note that his 'rate' went up above 7% in 2022 and it is back down in 2023
+      - Also, that his average 4-Seam Fastball height was almost 2 inches higher in 2022 on average, when it was more effective, than it is now in 2023
 
 
+- Justin Steele
+  - His Slider is his best pitch
+    - This is a theme with a lot of guys who find success with this less 'optimal' 4-Seam Fastball, they get the most out of it by using it to compliment their arsenal rather than leading their arsenal the way the pitchers in the first 2 lists use it
+    - He uses his Slider over 30% of the time
+  - In 2022, his 4-Seam Fastball was not an effective pitch for him
+    - He throws it at 92 mph
+  - One big difference in his 4-Seam Fastball from 2022 to 2023 is the location of it
+    - In 2022 you can see he was leaving it more in the middle, but in 2023 it is closer to the edge of the zone
+    #### 2022
+    ![Screenshot 2023-09-12 014743](https://github.com/josephmontes/VAA/assets/125607783/03404ebc-e2d7-40a8-8ee4-116733de8695)
+    #### 2023
+    ![Screenshot 2023-09-12 014721](https://github.com/josephmontes/VAA/assets/125607783/4e782343-cb7e-4e95-b0f3-a2226010f435)
+
+  - The following table shows this numerically in the 'plate_x' column
+    - 0 would be middle, so -2.8 in 2023 shows it is in that left third of the plate
+      
+    ![Screenshot 2023-09-12 020115](https://github.com/josephmontes/VAA/assets/125607783/10cc319c-b80a-42e0-8c3f-80d924b9a5f9)
+
+    - 'in_pct' value represents the frequency his 4-Seam Fastball was located in that left inner third of the plate as a percentage
+    - 'plate_z' is the other plate coordinate
+
+      
 #### List of guys throwing the 'bad' fastball effectively 
   - 31 of them
 
@@ -400,11 +425,13 @@
    - The 4-Seam Fastball is his secondary or tertiary pitch anyways
    - It is worth mentioning that some pitchers can just locate and use their 4-Seam Fastball to play off their other pitches more than the way the other list of pitchers use their 4-Seam Fastball
      - This can explain why we see some Hall of Famers + some flat out good pitchers on this list that are able to figure out how to make the most of what they have despite it not being the most optimal pitch
+    
+- 2022 CY Young Winner Justin Verlander
+  - Even though he does not get the optimal VAA, in 2022 the location of his 4-Seam Fastball was more optimal than in 2019
+  - Additionally, his 4-Seam really works off his breaking stuff
+    - This is a common theme for pitchers that get by with this less 'optimal' VAA on their 4-Seam Fastball, they use it more as a complimentary pitch to their better pitches whereas the other pitchers were more 4-Seam Fastball dominant type of pitchers
+  - Despite the top tier excellence in 2022 on his 4-Seam Fastball, it is getting hit a bit harder in 2023
 
-- Justin Steele
-  - Works with his slider
-  - Getting the fastball tucked into the corner
-    - a slight bit higher than 2022
 
 ### CONCLUSIONS
 - Many of the effective pitchers in the 30% category use their 4-Seam Fastball as their primary pitch (Gerrit Cole, Cristian Javier, Michael Kopech, etc.)
