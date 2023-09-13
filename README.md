@@ -1,12 +1,12 @@
 # 0. INTRO
 - Thank you for checking out my first research project using R    
 - The Statcast data used for this research is pitch by pitch data from 2019 to (August 10) 2023
-- I have a strong interest in analyzing the trends that are occurring within the pitcher batter matchup across MLB
+- I have a strong interest in analyzing trends that are happening within the pitcher batter matchup across MLB
   - Some examples of its evolution are batters hitting for a lower average but doing more damage on the hits they do get, and pitchers not throwing as many innings but throwing a higher quality of "stuff"
 - In this project, I analyze 4-Seam Fastballs with a focus on their Vertical Approach Angle (VAA)
-  - Vertical Approach Angle (VAA) describes the angle that the ball is crossing the plate; if VAA = 0°, then that would mean the ball is traveling completely parallel to the ground, if VAA = -90°, then that would be throwing it directly down at the ground
+  - Vertical Approach Angle (VAA) describes the angle that the ball is crossing the plate; if VAA = 0°, then the ball is traveling completely parallel to the ground, if VAA = -90°, then the ball was thrown directly down at the ground
   - The idea behind analyzing the VAA for 4-Seamers is that a 'flatter' (closer to 0°) angled 4-Seam Fastball should be harder to hit since batters swings' have a natural uppercut to them, their swing stays on plane with this type of pitched ball for less time 
-    - Also if a 4-Seam Fastball has a flatter VAA, then a batter could be deceived by thinking that the pitch will drop more than it actually will - forcing them to make an adjustment when they see this pitch
+    - Also, if a 4-Seam Fastball has a flatter VAA, then batters are likely to be deceived because they see a 4-Seam Fastball and think that its coming in at an angle that its not - resulting in worse quality of contact 
 - Additionally, I identify and analyze pitchers who exhibit the 'optimal' VAA characterstics on their 4-Seam Fastball vs. pitchers who do not
   - And I identify and analyze batters, more specifically, the type of batters who *have* and *have not* had success vs. the 'optimal' VAA 4-Seam Fastball
 - I followed this formula posted on FanGraphs by Alex Chamberlain for my calculation of VAA:
@@ -44,8 +44,8 @@
 
 
 ####  In all of these graphs, the VAA value where wOBA, xwOBA, Whiff%, Barrel% per swing cross their league average thresholds is consistently at -4.5° 
-- The VAA value -4.5° will be used to identify above average vs. below average 4-Seam Fastballs
-   - The table below supports this value by displaying the average wOBA against 4-Seam Fastballs with a VAA value equal to or flatter than -4.5° (vaa_fb = 1) vs. steeper than -4.5° (vaa_fb = 0)
+- The VAA value -4.5° will be used to identify above average vs. below average VAA for 4-Seam Fastballs
+   - The table below supports this by displaying the average wOBA against 4-Seam Fastballs with a VAA value equal to or flatter than -4.5° (vaa_fb = 1) vs. steeper than -4.5° (vaa_fb = 0)
         - 'freq' is frequency as a percentage
      
 ![Screenshot 2023-09-01 143713](https://github.com/josephmontes/VAA/assets/125607783/1725ff77-8eb9-4d14-a194-97914f342d37)
@@ -83,7 +83,7 @@
 
 #### So who is throwing this pitch?
 - Below is the list of pitcher seasons where they threw this 'optimal' 4-Seam Fastball at least **30%** of the time that they threw a 4-Seam Fastball (represented in the column of the table below titled 'Rate'), followed by the list of pitcher seasons where they threw it less than **7%** of the time
-   - Both groups of pitcher seasons will be divided into 2 lists: the ones who threw it effectively, followed by the ones who threw it ineffectively
+   - Both groups of pitcher seasons will be divided into 2 lists: those who threw it effectively, and those who threw it ineffectively
    - 'Effective' is defined as below the average 4-Seam Fastball wOBA value: 0.350
    - At least 600 4-Seam Fastballs thrown to stabilize wOBA
    - 'Next wOBA' column contains the value representing that pitcher's wOBA against their 4-Seam Fastball in the next season
@@ -158,7 +158,7 @@
     #### 2021 
     ![Screenshot 2023-09-11 195336](https://github.com/josephmontes/VAA/assets/125607783/a656c9f9-cd8b-43f2-8c83-d4900494d23b)
       
-- What's more interesting is that, although he has not thrown a qualified amount of 4-Seam Fastballs since 2021, in 2022 and 2023 his 'good' 4-Seam Fastball 'Rate' went back over 30% **and** the wOBA value against his 4-Seam Fastball has progressed back to being well below that league average .350 wOBA value
+- What's more interesting is that, although he has not thrown a qualified amount of 4-Seam Fastballs since 2021, in 2022 and 2023 his 'good' 4-Seam Fastball 'Rate' went back over 30% **and** the wOBA value against his 4-Seam Fastball has progressed back to being well below the league average .350 wOBA value
   - The column 'w_woba' stands for weighted wOBA, so when the 2 columns are added together it equals the overall wOBA against their 4-Seam Fastball
     - 2022: *0.319*, 2023: *0.298*
     #### 2022
