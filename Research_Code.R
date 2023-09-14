@@ -372,8 +372,8 @@ trenddat <- vaadat %>% filter(pitch_name == "4-Seam Fastball") %>%
     
     
     
-  # Use 'allbdat' to create 'bb' which will be used as a source list to merge info about the list of batters later
-    # 'bb' gets inner_join() with another dataframe to create the lists
+  # Use 'allbdat' to create 'bb' which will be used as a source list to merge info about the list of batters we are about to create
+    # 'bb' gets inner_join() with another data frame to create the batter lists
     
     bb <- allbdat %>% group_by(player_name, game_year) %>% 
       summarize(k_rate = sum(events == "strikeout")/sum(events != ""),
@@ -388,7 +388,7 @@ trenddat <- vaadat %>% filter(pitch_name == "4-Seam Fastball") %>%
       mutate(next_woba = coalesce(lead(woba), NA))
     
     # Use 'allbdat' to create g_wOBA, b_wOBA, d_woBA 
-      # Use lead() as well as to get next year values
+      # Use lead() to get next year values
     
     b <- allbdat %>%
       filter(pitch_name == "4-Seam Fastball") %>%
@@ -444,7 +444,8 @@ batter_above <- inner_join(batter_above, bb, by = c("game_year", "player_name"))
 
     batter_below <- b %>% filter(game_year %in% c("2021","2022")) %>% arrange(desc(d_wOBA)) %>% filter(freq >=600 & d_wOBA >= 0.150)
 
-      # Bonus list for below batters
+    
+      # This is a bonus list not including in the research that will show who hits the 'good' 4-Seam Fastball worst according to g_wOBA
       below <- b %>% filter(game_year %in% c("2021","2022")) %>% arrange(desc(d_wOBA)) %>% filter(freq >=600 & g_wOBA <= 0.200)
 
       
@@ -458,6 +459,7 @@ batter_above <- inner_join(batter_above, bb, by = c("game_year", "player_name"))
              next_year_woba = round(next_year_woba,3),
              next_year_g_woba = round(next_year_g_woba,3))
     
+    
     # Recreate 'batter_below' again using inner_join() to combine it with 'bb'
     
     batter_below <- inner_join(batter_below, bb, by = c("game_year", "player_name"))
@@ -469,26 +471,31 @@ batter_above <- inner_join(batter_above, bb, by = c("game_year", "player_name"))
 mean(batter_above$wOBA)
 mean(batter_below$wOBA)
 
+
     # wOBA against all pitches
 mean(batter_above$woba, na.rm = T)
 mean(batter_below$woba)
+
 
     # wOBA against all pitches NEXT YEAR
 mean(batter_above$next_woba, na.rm = T)
 mean(batter_below$next_woba, na.rm = T)
 
 
-# wOBA against 4-Seam Fastball next year
+    # wOBA against 4-Seam Fastball next year
 mean(batter_above$next_year_woba, na.rm = T)
 mean(batter_below$next_year_woba, na.rm = T)
+
 
     # g_wOBA averages
 mean(batter_above$g_wOBA)
 mean(batter_below$g_wOBA)
 
+
     # g_wOBA NEXT YEAR
 mean(batter_above$next_year_g_woba, na.rm = T)
 mean(batter_below$next_year_g_woba, na.rm = T)
+
 
     # K%
 mean(batter_above$k_rate, na.rm = T)
@@ -528,6 +535,7 @@ get_vaa_splits(allbdat, "Muncy, Max", "2023")
 
 
 # Get the list of players on both lists
+
     # Store the names on each list in separate variables
   c <- unique(batter_above$player_name)
   e <- unique(batter_below$player_name)
@@ -535,19 +543,13 @@ get_vaa_splits(allbdat, "Muncy, Max", "2023")
     # Use intersect() to store the names that appear on both lists in a new variable
   d <- intersect(c,e)
   
-    # Get rid of the names that are on both lists from the other 2 lists
-  c <- c[!c %in% d]
-  e <- e[!e %in% d]  
-  
-  
-    # View all 3 lists
-  c
-  e
-  d
-    
+  # Extract the batter names stored in 'd' from 'batter_above' and 'batter_below'
+  both_a <- batter_above[batter_above$player_name %in% d, ] 
+  both_b <- batter_below[batter_below$player_name %in% d, ] 
+  both <- rbind(both_a, both_b)
   
 
-# BONUS ANALYSIS!
+# BONUS ANALYSES!
 
 # wOBA against the 2 different types of fastballs
   # Red line will be the general wOBA vs. 4-Seam Fastballs
@@ -593,5 +595,3 @@ get_vaa_splits(allbdat, "Muncy, Max", "2023")
     labs(x = "VAA", y = "Value", title = "Change in WOBA and xWOBA with VAA for 4-Seam Fastball") +
     scale_color_manual(values = c("rls_height" = "blue", "ext" = "red")) +
     theme_minimal()
-  
-  
