@@ -1,5 +1,6 @@
 # 0. INTRO
-- Thank you for checking out my first research project using R    
+- Thank you for checking out my first research project using R
+  - All the code to produce this can be viewed in the 'Research_Code.R' file
 - The Statcast data used for this research is pitch by pitch data from 2019 to (August 10) 2023 scraped using the baseballr package
   - Baseball Savant was also used as a reference for this research
 - I have a strong interest in analyzing trends that are happening within the pitcher batter matchup across MLB
