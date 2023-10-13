@@ -1,6 +1,6 @@
 # 0. INTRO
 - Thank you for checking out my first research project using R
-  - All the code I wrote to produce this can be viewed in the 'Research_Code.R' file
+  - All the code I wrote to create this can be viewed in the 'Research_Code.R' file
 - The Statcast data used for this research is pitch by pitch data from 2019 to (August 10) 2023 scraped using the baseballr package
   - Baseball Savant was also used as a reference for this research
 - I have a strong interest in analyzing trends that are happening within the pitcher batter matchup across MLB
@@ -173,7 +173,7 @@
       ![Screenshot 2023-09-11 200535](https://github.com/josephmontes/VAA/assets/125607783/d4ce8ae1-6732-4ce6-8b1e-d6c4e767388c)
 
 - What I want to highlight here is that his 4-Seam Fastballs that were categorized as 'good', according to VAA and location, were still extremely effective, while the ineffective ones were hit at 0.377 wOBA
-  - I believe it is safe to assume that if Sean Doolittle, and Emilio Pagán, were able to maintain their 30%+ 'Rate', then their 4-Seam Fastball would not have ended up regressing in this 2021 season
+  - It is safe to assume that if Sean Doolittle, and Emilio Pagán, were able to maintain their 30%+ 'Rate', then their 4-Seam Fastball would not have ended up regressing in this 2021 season
 - Sean Doolittle has not thrown more than 50 4-Seam Fastballs in a season since this 2021 season
    
        
@@ -250,7 +250,7 @@
     ![Screenshot 2023-09-11 203435](https://github.com/josephmontes/VAA/assets/125607783/c9e327da-3b1e-498f-b0b3-3456a5497587)
 
 - His 4-Seam Fastball's regression in the 2023 season is coming from the times that he does *not* throw this 'good' type of 4-Seam Fastball, since the wOBA value when g_fb = 0 has ballooned from .290 in 2022 to .404 in 2023
-  - He could be suffering from what I mentioned with Michael Kopech where he throws his 4-Seam Fastball at such a high rate (60% of the time), batters are sitting on it and able to punish the 'bad' ones
+  - He could be suffering from what was mentioned earlier with Michael Kopech where he throws his 4-Seam Fastball at such a high rate (60% of the time), batters are sitting on it and able to punish the 'bad' ones
 
 ### So who is NOT throwing this pitch?
 
@@ -441,8 +441,8 @@
 - As long as the batter is able to do at least league average damage on the 'suboptimal' type of 4-Seamers, then an ability to hit the more effective version of it would unlock a unique ceiling that a batter can get their offensive production to
   - Also, it is reasonable to anticipate that this trend will continue, presenting a favorable outlook for the batter in future seasons
 - However, I am more interested in what *type* of batters are successful vs. this 'good' VAA 4-Seam Fastball moreso than what *specific* batters
-- To achieve this, I will **not** look at who has the highest wOBA vs. this type of 4-Seam Fastball, because then I will just get a list of the best batters, instead, I will look at who has the biggest *difference* in wOBA between the way they hit 'good' 4-Seamers vs. all other 4-Seam Fastballs
-  - I will view every batters's wOBA vs. 4-Seam Fastballs in the same two categories I have been using the whole time:
+- To achieve this, I will **not** look at who has the highest wOBA vs. this type of 4-Seam Fastball because then I will just get a list of the best batters, instead, I will look at who has the biggest *difference* in wOBA between the way they hit 'good' 4-Seamers vs. all other 4-Seam Fastballs
+  - Every batters's wOBA vs. 4-Seam Fastballs will be viewed in the same two categories that have been used the whole time:
     
     `1.` VAA >= -4.5° and location within the -5 to 5.5 inches from the top of the strikezone ('g_fb' = 1)
     
@@ -459,7 +459,7 @@
 - 'b_wOBA' is wOBA vs. 'bad' 4-Seam Fastball
 - 'd_wOBA' is the difference between 'g_wOBA' and 'b_wOBA'
 - minimum 600 4-Seam Fastballs
-- I only used batting seasons from 2021 and 2022 seasons here because: there were a lot more qualifying batting seasons than pitching seasons, 2020 is confusing to evaluate, and this way every batter can be evaluated in the next season too
+- Only batting seasons from 2021 and 2022 seasons were used here because: there were a lot more qualifying batting seasons than pitching seasons, 2020 is confusing to evaluate, and this way every batter can be evaluated in the next season too
   
 ## List of batting seasons where d_wOBA >= -0.025
 
@@ -561,7 +561,7 @@
   - Luis Arraez, Steven Kwan, DJ LeMahieu, Jake Cronenworth, Andrew Benintendi, Gio Urshela, Isiah Kiner-Falefa, Jeff McNeil, Whit Merrifield, David Fletcher, Myles Straw, Josh Rojas, Elvis Andrus, Bryan Reynolds, Brandon Nimmo, Trea Turner, Brendan Donovan, Brett Gardner, Dansby Swanson, Jose Altuve, Ty France, and more
   - So I investigated their K% and found that the K% for this list of hitters is 19.6%!
     - League average K% is 22.1% 
-    - To further support this, I investigated their Whiff% and found that the Whiff% for this list of hitters is 21.4%
+    - To further support this, the Whiff% for this list of hitters is 21.4%
       - League average Whiff% is 24.8%
 - Every hitter on this list has a positive outlook in regard to their production against 4-Seam Fastballs because of their displayed ability to hit this more difficult type of 4-Seam Fastball that is trending
   - Since it is statistically easier to hit the other type of 4-Seam Fastball that these hitters are not hitting as well, it is a safer bet to make on these batters that they will be above average 4-Seam Fastball hitters going forward
@@ -693,8 +693,8 @@
 ### NOTES
 - I was expecting to see a bias towards power hitters on this list, and it does seem that way
   - Mike Trout, Nathaniel Lowe, Austin Riley, Paul Goldschmidt, Pete Alonso, Joey Gallo, Miguel Sanó, Nelson Cruz, Ryan Mountcastle, Brandon Lowe, Bryce Harper, Willson Contreras, Rafael Devers, Randy Arozarena, Brandon Belt, Ryan McMahon, Gary Sanchez
-- I found that this entire list of batters has an average HR rate (3.8%) higher than the batters on the first list (3.3%)
-- I also found that the overall wOBA (not just on 4-Seam Fastballs) for this list of hitters is higher (0.347) than the first list of hitters (0.344), supporting the notion that these hitters are more power-type of bats and the other list more contact-type
+- This list of batters has an average HR rate (3.8%) higher than the batters on the first list (3.3%)
+- The overall wOBA (not just on 4-Seam Fastballs) for this list of hitters is higher (0.347) than the first list of hitters (0.344), supporting the notion that these hitters are more power-type of bats and the other list more contact-type
     - Another interesting note: the next year's overall wOBA (not just on 4-Seam Fastballs) for these lists of hitters: 'contact' list 1: **.338** vs. 'power' list 2: **.329!**
       - In other words, in the next season, the 'contact' list of hitters actually collectively had a higher wOBA than the list with a bias towards power hitters
       - Could this switch really be guided by their ability to counter this more effective 4-Seam Fastball combined with an increased rate of those 4-Seam Fastballs occurring?
@@ -703,8 +703,8 @@
         - The idea is that batters with a steeper Attack Angle tend to hit more Flyballs
 
 ## PLAYER SPOTLIGHT
-- I will look at the 20 hitters that were on both lists
-- I will group them by the ones whose 'g_wOBA' declined from season to season vs. those whose 'g_wOBA' improved
+- The 20 hitters that were on both lists
+  - Grouped by the ones whose 'g_wOBA' declined from season to season vs. those whose 'g_wOBA' improved
   
 ### List of batters on both lists whose 'g_wOBA' decreased from season to season
 
@@ -809,16 +809,16 @@
   - Many of the effective pitchers in the 'less than 8% 'rate'' category have success with their 4-Seam Fastball by using it as a complimentary pitch to their more high-quality pitches (Zack Greinke, Justin Verlander, Clayton Kershaw, Justin Steele, etc.)
 - I noticed that there are a ton of young pitchers throwing this 'better' 4-Seam Fastball right now, so, again, I do not see this trend going away (Bryce Miller, Mason Miller, Bobby Miller, Hunter Greene, Bryan Woo, JP Sears, Spencer Strider, etc.)
 - I do not have access to stats such as Arm Angle because I do not have measurements of where the pitcher is on the rubber nor measurements of their shoulder height, but if I did, I expect that I would see a strong correlation between lowering a pitcher's Arm Angle at the point of release and having an optimal VAA on their 4-Seam Fastball
-  - I found somewhat of a correlation between release height and VAA that you can find in my code!
+  - There is a correlation between release height and VAA that you can find in my code!
 - Also, I cannot calculate spin efficiency measurements with my data because I do not have the directional components of spin rate, just an overall spin rate, but if I did, I would expect that having a highly spin efficient 4-Seam Fastball helps a pitcher's VAA to be flatter because highly spin efficient 4-Seam Fastballs counteract the drag force on the pitched ball, enabling the lift force, leading to a pitched ball that drops less, and therefore has a flatter VAA
 ### BATTERS
 - The significant Flyball% discrepancy between the lists of batters mentioned earlier made sense, to me, of *why* this trend is happening: it is to counter all the launch angle efforts by the batter and counter the increasing Homerun environment created in the last 5 seasons
   - That explains why there is a skew towards contact hitters having the ability to hit this more effective 4-Seam Fastball, but that does not tell the whole story
-    - I believe that this Flyball% discrepancy between the list of batters is a hint that Attack Angle measurements would be able to reveal more about which batters are having success/can have success vs. this type of 4-Seam Fastball
+    - This Flyball% discrepancy between the list of batters is a hint that Attack Angle measurements would be able to reveal more about which batters are having success/can have success vs. this type of 4-Seam Fastball
     - More specifically, the ability for a batter to have a *range* of Attack Angles at their disposal due to their swing mechanics would be a major key in being able to take advantage of this trend, rather than just being a batter that has a flatter Attack Angle on average
-      - I emphasized ***range*** of Attack Angles because if a batter just has a flatter Attack Angle, then he is likely to struggle on the rest of the 90% of pitches that are not this specific type of 4-Seam Fastball, but if he has more diversity in his Attack Angles, then that will enable him to be able to get to this type of pitch when he needs to while maintaining an effective approach vs. all other pitch types
-- Another interesting thing I found is that the BB% for the first list of 'contact' batters (9.2%) was slightly higher than the second list of 'power' batters (8.7%)
-  - I found this notable because you likely would assume that between 2 lists of batters, the list with more power bats would have the higher walk rate than the contact hitters
+      - ***Range*** of Attack Angles is emphasized because if a batter just has an overall flatter Attack Angle, then he is likely to struggle on the rest of the 90% of pitches that are not this specific type of 4-Seam Fastball, but if he has more diversity in his Attack Angles, then that will enable him to be able to get to this type of pitch when he needs to while maintaining an effective approach vs. all other pitch types
+- Another interesting note is that the BB% for the first list of 'contact' batters (9.2%) was slightly higher than the second list of 'power' batters (8.7%)
+  - I found this notable because you would likely assume that between 2 lists of batters, the list with more power bats would have the higher walk rate than the contact hitters
   - Also, part of the idea behind this analysis is that a flatter VAA on 4-Seam Fastballs makes them harder to hit because the pitch is not breaking as the batter is expecting
     - This implies that if the batter has an ability to see the ball better, which a higher BB% implies, then he can give himself a better chance to identify and ultimately hit this type of 4-Seam Fastball
 - I was hesitant to say that the first list of 'contact' hitters should be viewed as progression candidates because of my assumption that the ability to hit this type of pitch will have a lot of variability from season to season, and because it is only 6% of **all** pitches
